@@ -622,14 +622,16 @@ export default function GalleryPage() {
             src="/images/Osinka Kallaso/429e875f-e4fb-4750-9763-03c351092c32.JPG"
             alt="Osinka Kallaso farming community"
             fill
-            className="object-cover"
+            className="object-cover object-bottom"
             priority
           />
         </div>
+        {/* Bottom mask to ensure clean edge */}
+        <div className="absolute bottom-0 left-0 right-0 h-4 bg-white z-30 shadow-lg"></div>
       </section>
 
       {/* Gallery Filters */}
-      <section className="py-8 bg-white border-b sticky top-16 z-40">
+      <section className="py-8 bg-white border-b sticky top-16 z-40 relative">
         <div className="container mx-auto px-4">
           <div className="flex flex-wrap justify-center gap-2 md:gap-4">
             {categories.map((category) => (

@@ -77,8 +77,8 @@ export default function ContactPage() {
                   </div>
                   <div>
                     <h3 className="font-semibold text-gray-800 mb-1">Email</h3>
-                            <p className="text-gray-600">info@osinkalaso.website</p>
-        <p className="text-gray-600">support@osinkalaso.website</p>
+                    <p className="text-gray-600">info@osinkakalaso.website</p>
+                    <p className="text-gray-600">support@osinkakalaso.website</p>
                   </div>
                 </div>
 
@@ -220,26 +220,36 @@ export default function ContactPage() {
             </div>
 
             <div className="bg-white p-8 rounded-lg shadow-lg text-center">
-              <div className="w-24 h-24 mx-auto mb-4 bg-green-100 rounded-full flex items-center justify-center">
-                <div className="text-3xl">👩‍💼</div>
+              <div className="relative w-24 h-24 mx-auto mb-4 bg-green-100 rounded-full overflow-hidden">
+                <Image
+                  src="/images/Osinka Kallaso/5108cac3-4480-440b-9d00-dff8e89e2415.JPG"
+                  alt="Paul Sironka"
+                  fill
+                  className="object-cover"
+                />
               </div>
-              <h3 className="text-xl font-semibold mb-2 text-gray-800">Sarah Wanjiku</h3>
-              <p className="text-green-600 mb-4">Community Coordinator</p>
-              <p className="text-gray-600 mb-4">sarah@osinkakalaso.org</p>
+              <h3 className="text-xl font-semibold mb-2 text-gray-800">Paul Sironka</h3>
+              <p className="text-green-600 mb-4">Innovation & Technology Lead</p>
+              <p className="text-gray-600 mb-4">paul@osinkakalaso.website</p>
               <p className="text-gray-600 text-sm">
-                Local community leader dedicated to farmer empowerment and education
+                Leading sustainable farming innovation and water management systems
               </p>
             </div>
 
             <div className="bg-white p-8 rounded-lg shadow-lg text-center">
-              <div className="w-24 h-24 mx-auto mb-4 bg-green-100 rounded-full flex items-center justify-center">
-                <div className="text-3xl">👨‍🔬</div>
+              <div className="relative w-24 h-24 mx-auto mb-4 bg-green-100 rounded-full overflow-hidden">
+                <Image
+                  src="/images/Osinka Kallaso/8734f09b-23a2-4241-8e61-8ea16f9def42.JPG"
+                  alt="Simon Loomu"
+                  fill
+                  className="object-cover"
+                />
               </div>
-              <h3 className="text-xl font-semibold mb-2 text-gray-800">David Ochieng</h3>
-              <p className="text-green-600 mb-4">Agricultural Specialist</p>
-              <p className="text-gray-600 mb-4">david@osinkakalaso.org</p>
+              <h3 className="text-xl font-semibold mb-2 text-gray-800">Simon Loomu</h3>
+              <p className="text-green-600 mb-4">Equipment & Infrastructure Manager</p>
+              <p className="text-gray-600 mb-4">simon@osinkakalaso.website</p>
               <p className="text-gray-600 text-sm">
-                Expert in modern irrigation systems and crop management techniques
+                Managing modern farming equipment and sustainable infrastructure
               </p>
             </div>
           </div>
