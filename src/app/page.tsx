@@ -403,6 +403,58 @@ export default function Home() {
             </div>
           </div>
 
+          {/* Additional Farmer Showcase */}
+          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6 mb-16">
+            <div className="relative h-80 bg-gray-200 rounded-lg overflow-hidden">
+              <Image
+                src="/images/Osinka Kallaso/290edef7-f319-42d3-9ac4-5a06eccfad9c.JPG"
+                alt="Osinka Kallaso farmer with sustainable equipment"
+                fill
+                className="object-cover"
+              />
+            </div>
+            <div className="relative h-80 bg-gray-200 rounded-lg overflow-hidden">
+              <Image
+                src="/images/Osinka Kallaso/386d69df-c4b2-40c0-a6f0-bcb714800a2f.JPG"
+                alt="Osinka Kallaso farmer working with modern techniques"
+                fill
+                className="object-cover"
+              />
+            </div>
+            <div className="relative h-80 bg-gray-200 rounded-lg overflow-hidden">
+              <Image
+                src="/images/Osinka Kallaso/427a34a6-4097-4eab-8cae-a3a7200a1de2.JPG"
+                alt="Osinka Kallaso farmer in community meeting"
+                fill
+                className="object-cover"
+              />
+            </div>
+            <div className="relative h-80 bg-gray-200 rounded-lg overflow-hidden">
+              <Image
+                src="/images/Osinka Kallaso/429e875f-e4fb-4750-9763-03c351092c32.JPG"
+                alt="Osinka Kallaso farmer training coordinator"
+                fill
+                className="object-cover"
+              />
+            </div>
+            <div className="relative h-80 bg-gray-200 rounded-lg overflow-hidden">
+              <Image
+                src="/images/Osinka Kallaso/5108cac3-4480-440b-9d00-dff8e89e2415.JPG"
+                alt="Osinka Kallaso farmer with irrigation system"
+                fill
+                className="object-cover"
+              />
+            </div>
+            <div className="relative h-80 bg-gray-200 rounded-lg overflow-hidden">
+              <Image
+                src="/images/Osinka Kallaso/8734f09b-23a2-4241-8e61-8ea16f9def42.JPG"
+                alt="Osinka Kallaso farmer with harvest"
+                fill
+                className="object-cover"
+              />
+            </div>
+          </div>
+
           <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
             <div className="text-center">
               <div className="text-5xl mb-4">👨‍🌾</div>

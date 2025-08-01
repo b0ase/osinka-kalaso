@@ -383,16 +383,107 @@ export default function EconomicsPage() {
             </p>
           </div>
 
-          <div className="max-w-6xl mx-auto">
-            <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
-              <div className="bg-white p-8 rounded-lg shadow-lg border border-gray-200">
-                <div className="text-4xl mb-4">🔄</div>
-                <h3 className="text-xl font-semibold mb-4 text-gray-800">Sustainable Practices</h3>
-                <p className="text-gray-700 leading-relaxed">
-                  Water-efficient irrigation, organic fertilizers, and crop rotation ensure 
-                  long-term soil health and productivity.
-                </p>
+          {/* Farmer Success Stories */}
+          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8 mb-16">
+            <div className="bg-white p-6 rounded-lg shadow-lg">
+              <div className="relative w-20 h-20 mx-auto mb-4 bg-green-100 rounded-full overflow-hidden">
+                <Image
+                  src="/images/Osinka Kallaso/2bf70573-4230-4c77-8282-a37f89f29e96.JPG"
+                  alt="Osinka Kallaso Farmer Success Story"
+                  fill
+                  className="object-cover"
+                />
               </div>
+              <h3 className="text-lg font-semibold text-center mb-2">John&apos;s Success</h3>
+              <p className="text-gray-600 text-sm text-center">
+                &ldquo;My income increased from KES 15,000 to KES 45,000 per month. 
+                I can now afford better education for my children.&rdquo;
+              </p>
+            </div>
+            <div className="bg-white p-6 rounded-lg shadow-lg">
+              <div className="relative w-20 h-20 mx-auto mb-4 bg-green-100 rounded-full overflow-hidden">
+                <Image
+                  src="/images/Osinka Kallaso/3ad53087-816a-4dd5-b6a5-cb02f03ec71f.JPG"
+                  alt="Osinka Kallaso Farmer Success Story"
+                  fill
+                  className="object-cover"
+                />
+              </div>
+              <h3 className="text-lg font-semibold text-center mb-2">Sarah&apos;s Journey</h3>
+              <p className="text-gray-600 text-sm text-center">
+                &ldquo;The sustainable farming techniques have transformed my farm. 
+                I&apos;m now a mentor to other farmers in the community.&rdquo;
+              </p>
+            </div>
+            <div className="bg-white p-6 rounded-lg shadow-lg">
+              <div className="relative w-20 h-20 mx-auto mb-4 bg-green-100 rounded-full overflow-hidden">
+                <Image
+                  src="/images/Osinka Kallaso/3c894237-9648-4c33-bfe3-bbba3a922418.JPG"
+                  alt="Osinka Kallaso Farmer Success Story"
+                  fill
+                  className="object-cover"
+                />
+              </div>
+              <h3 className="text-lg font-semibold text-center mb-2">David&apos;s Growth</h3>
+              <p className="text-gray-600 text-sm text-center">
+                &ldquo;From struggling to make ends meet to becoming a successful 
+                onion farmer with a stable income.&rdquo;
+              </p>
+            </div>
+          </div>
+
+          {/* Community Impact Visualization */}
+          <div className="grid md:grid-cols-2 gap-8 mb-16">
+            <div>
+              <h3 className="text-2xl font-bold text-gray-800 mb-6">Community Impact</h3>
+              <div className="space-y-6">
+                <div className="flex items-center space-x-4">
+                  <div className="w-16 h-16 bg-green-100 rounded-full flex items-center justify-center">
+                    <div className="text-2xl">👥</div>
+                  </div>
+                  <div>
+                    <h4 className="font-semibold text-gray-800">50+ Families</h4>
+                    <p className="text-gray-600">Directly benefiting from the project</p>
+                  </div>
+                </div>
+                <div className="flex items-center space-x-4">
+                  <div className="w-16 h-16 bg-green-100 rounded-full flex items-center justify-center">
+                    <div className="text-2xl">💰</div>
+                  </div>
+                  <div>
+                    <h4 className="font-semibold text-gray-800">KES 2.5M+</h4>
+                    <p className="text-gray-600">Total annual income generated</p>
+                  </div>
+                </div>
+                <div className="flex items-center space-x-4">
+                  <div className="w-16 h-16 bg-green-100 rounded-full flex items-center justify-center">
+                    <div className="text-2xl">🎓</div>
+                  </div>
+                  <div>
+                    <h4 className="font-semibold text-gray-800">100+ Children</h4>
+                    <p className="text-gray-600">Now have access to better education</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div className="relative h-80 bg-gray-200 rounded-lg overflow-hidden">
+              <Image
+                src="/images/Osinka Kallaso/9c68d72e-39a7-4832-b781-2b2348050175.JPG"
+                alt="Osinka Kallaso community economic impact"
+                fill
+                className="object-cover"
+              />
+          </div>
+
+          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+            <div className="bg-white p-8 rounded-lg shadow-lg border border-gray-200">
+              <div className="text-4xl mb-4">🔄</div>
+              <h3 className="text-xl font-semibold mb-4 text-gray-800">Sustainable Practices</h3>
+              <p className="text-gray-700 leading-relaxed">
+                Water-efficient irrigation, organic fertilizers, and crop rotation ensure 
+                long-term soil health and productivity.
+              </p>
+            </div>
               <div className="bg-white p-8 rounded-lg shadow-lg border border-gray-200">
                 <div className="text-4xl mb-4">👨‍👩‍👧‍👦</div>
                 <h3 className="text-xl font-semibold mb-4 text-gray-800">Generational Wealth</h3>

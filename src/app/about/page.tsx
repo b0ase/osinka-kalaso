@@ -118,150 +118,86 @@ export default function AboutPage() {
             </p>
           </div>
 
-          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
-            <div className="text-center bg-gray-50 p-6 rounded-lg">
-              <div className="w-32 h-32 mx-auto mb-4 bg-green-100 rounded-full flex items-center justify-center overflow-hidden shadow-lg">
+          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8 mb-16">
+            <div className="text-center">
+              <div className="relative w-32 h-32 mx-auto mb-4 bg-green-100 rounded-full overflow-hidden">
                 <Image
-                  src="/images/kenyan-farmer-1.jpg"
-                  alt="John Mwangi"
+                  src="/images/Osinka Kallaso/2bf70573-4230-4c77-8282-a37f89f29e96.JPG"
+                  alt="Osinka Kallaso Community Leader"
                   fill
-                  className="object-cover object-center"
-                  style={{ objectPosition: 'center 30%' }}
+                  className="object-cover"
                 />
               </div>
-              <h3 className="text-xl font-semibold mb-2 text-gray-800">John Mwangi</h3>
-              <p className="text-green-600 mb-3 font-medium">Project Director</p>
-              <p className="text-gray-600 text-sm leading-relaxed">
-                Agricultural expert with 15+ years experience in sustainable farming practices
-              </p>
+              <h3 className="text-xl font-semibold mb-2">Community Leader</h3>
+              <p className="text-gray-600">Leading sustainable farming initiatives</p>
             </div>
-            <div className="text-center bg-gray-50 p-6 rounded-lg">
-              <div className="w-32 h-32 mx-auto mb-4 bg-green-100 rounded-full flex items-center justify-center overflow-hidden shadow-lg">
+            <div className="text-center">
+              <div className="relative w-32 h-32 mx-auto mb-4 bg-green-100 rounded-full overflow-hidden">
                 <Image
-                  src="/images/kenyan-farmer-2.jpg"
-                  alt="Sarah Wanjiku"
+                  src="/images/Osinka Kallaso/3ad53087-816a-4dd5-b6a5-cb02f03ec71f.JPG"
+                  alt="Osinka Kallaso Farmer"
                   fill
-                  className="object-cover object-center"
-                  style={{ objectPosition: 'center 30%' }}
+                  className="object-cover"
                 />
               </div>
-              <h3 className="text-xl font-semibold mb-2 text-gray-800">Sarah Wanjiku</h3>
-              <p className="text-green-600 mb-3 font-medium">Community Coordinator</p>
-              <p className="text-gray-600 text-sm leading-relaxed">
-                Local community leader dedicated to farmer empowerment and education
-              </p>
+              <h3 className="text-xl font-semibold mb-2">Expert Farmer</h3>
+              <p className="text-gray-600">Years of experience in onion cultivation</p>
             </div>
-            <div className="text-center bg-gray-50 p-6 rounded-lg">
-              <div className="w-32 h-32 mx-auto mb-4 bg-green-100 rounded-full flex items-center justify-center overflow-hidden shadow-lg">
+            <div className="text-center">
+              <div className="relative w-32 h-32 mx-auto mb-4 bg-green-100 rounded-full overflow-hidden">
                 <Image
-                  src="/images/kenyan-farmer-3.jpg"
-                  alt="David Ochieng"
+                  src="/images/Osinka Kallaso/3c894237-9648-4c33-bfe3-bbba3a922418.JPG"
+                  alt="Osinka Kallaso Training Coordinator"
                   fill
-                  className="object-cover object-center"
-                  style={{ objectPosition: 'center 30%' }}
+                  className="object-cover"
                 />
               </div>
-              <h3 className="text-xl font-semibold mb-2 text-gray-800">David Ochieng</h3>
-              <p className="text-green-600 mb-3 font-medium">Agricultural Specialist</p>
-              <p className="text-gray-600 text-sm leading-relaxed">
-                Expert in modern irrigation systems and crop management techniques
-              </p>
+              <h3 className="text-xl font-semibold mb-2">Training Coordinator</h3>
+              <p className="text-gray-600">Sharing knowledge with new farmers</p>
             </div>
-            <div className="text-center bg-gray-50 p-6 rounded-lg">
-              <div className="w-32 h-32 mx-auto mb-4 bg-green-100 rounded-full flex items-center justify-center overflow-hidden shadow-lg">
-                <Image
-                  src="/images/kenyan-farmer-4.jpg"
-                  alt="Grace Akinyi"
-                  fill
-                  className="object-cover object-center"
-                  style={{ objectPosition: 'center 30%' }}
-                />
+          </div>
+
+          {/* Community Impact */}
+          <div className="grid md:grid-cols-2 gap-8">
+            <div>
+              <h3 className="text-2xl font-bold text-gray-800 mb-4">Community Impact</h3>
+              <div className="space-y-4">
+                <div className="flex items-start space-x-4">
+                  <div className="w-12 h-12 bg-green-100 rounded-full flex items-center justify-center flex-shrink-0">
+                    <div className="text-2xl">👥</div>
+                  </div>
+                  <div>
+                    <h4 className="font-semibold text-gray-800">50+ Families</h4>
+                    <p className="text-gray-600">Directly benefiting from sustainable farming</p>
+                  </div>
+                </div>
+                <div className="flex items-start space-x-4">
+                  <div className="w-12 h-12 bg-green-100 rounded-full flex items-center justify-center flex-shrink-0">
+                    <div className="text-2xl">💰</div>
+                  </div>
+                  <div>
+                    <h4 className="font-semibold text-gray-800">300% Income Increase</h4>
+                    <p className="text-gray-600">Average income growth for participating families</p>
+                  </div>
+                </div>
+                <div className="flex items-start space-x-4">
+                  <div className="w-12 h-12 bg-green-100 rounded-full flex items-center justify-center flex-shrink-0">
+                    <div className="text-2xl">🎓</div>
+                  </div>
+                  <div>
+                    <h4 className="font-semibold text-gray-800">Education Access</h4>
+                    <p className="text-gray-600">Children can now attend better schools</p>
+                  </div>
+                </div>
               </div>
-              <h3 className="text-xl font-semibold mb-2 text-gray-800">Grace Akinyi</h3>
-              <p className="text-green-600 mb-3 font-medium">Marketing Coordinator</p>
-              <p className="text-gray-600 text-sm leading-relaxed">
-                Connecting farmers with markets and managing product distribution
-              </p>
             </div>
-            <div className="text-center bg-gray-50 p-6 rounded-lg">
-              <div className="w-32 h-32 mx-auto mb-4 bg-green-100 rounded-full flex items-center justify-center overflow-hidden shadow-lg">
-                <Image
-                  src="/images/kenyan-farmer-5.jpg"
-                  alt="Peter Kamau"
-                  fill
-                  className="object-cover object-center"
-                  style={{ objectPosition: 'center 30%' }}
-                />
-              </div>
-              <h3 className="text-xl font-semibold mb-2 text-gray-800">Peter Kamau</h3>
-              <p className="text-green-600 mb-3 font-medium">Training Coordinator</p>
-              <p className="text-gray-600 text-sm leading-relaxed">
-                Educating farmers on sustainable practices and modern techniques
-              </p>
-            </div>
-            <div className="text-center bg-gray-50 p-6 rounded-lg">
-              <div className="w-32 h-32 mx-auto mb-4 bg-green-100 rounded-full flex items-center justify-center overflow-hidden shadow-lg">
-                <Image
-                  src="/images/kenyan-farmer-6.jpg"
-                  alt="Mary Njeri"
-                  fill
-                  className="object-cover object-center"
-                  style={{ objectPosition: 'center 30%' }}
-                />
-              </div>
-              <h3 className="text-xl font-semibold mb-2 text-gray-800">Mary Njeri</h3>
-              <p className="text-green-600 mb-3 font-medium">Health & Safety Officer</p>
-              <p className="text-gray-600 text-sm leading-relaxed">
-                Ensuring community health through clean water access and safety protocols
-              </p>
-            </div>
-            <div className="text-center bg-gray-50 p-6 rounded-lg">
-              <div className="w-32 h-32 mx-auto mb-4 bg-green-100 rounded-full flex items-center justify-center overflow-hidden shadow-lg">
-                <Image
-                  src="/images/kenyan-farmer-7.jpg"
-                  alt="James Kiprop"
-                  fill
-                  className="object-cover object-center"
-                  style={{ objectPosition: 'center 40%' }}
-                />
-              </div>
-              <h3 className="text-xl font-semibold mb-2 text-gray-800">James Kiprop</h3>
-              <p className="text-green-600 mb-3 font-medium">Field Operations Manager</p>
-              <p className="text-gray-600 text-sm leading-relaxed">
-                Overseeing daily farming operations and ensuring quality standards
-              </p>
-            </div>
-            <div className="text-center bg-gray-50 p-6 rounded-lg">
-              <div className="w-32 h-32 mx-auto mb-4 bg-green-100 rounded-full flex items-center justify-center overflow-hidden shadow-lg">
-                <Image
-                  src="/images/0_0-1.jpg"
-                  alt="Faith Muthoni"
-                  fill
-                  className="object-cover object-center"
-                  style={{ objectPosition: 'center 30%' }}
-                />
-              </div>
-              <h3 className="text-xl font-semibold mb-2 text-gray-800">Faith Muthoni</h3>
-              <p className="text-green-600 mb-3 font-medium">Quality Control Specialist</p>
-              <p className="text-gray-600 text-sm leading-relaxed">
-                Ensuring our onions meet the highest quality standards for market
-              </p>
-            </div>
-            <div className="text-center bg-gray-50 p-6 rounded-lg">
-              <div className="w-32 h-32 mx-auto mb-4 bg-green-100 rounded-full flex items-center justify-center overflow-hidden shadow-lg">
-                <Image
-                  src="/images/0_1-3.jpg"
-                  alt="Michael Odhiambo"
-                  fill
-                  className="object-cover object-center"
-                  style={{ objectPosition: 'center 30%' }}
-                />
-              </div>
-              <h3 className="text-xl font-semibold mb-2 text-gray-800">Michael Odhiambo</h3>
-              <p className="text-green-600 mb-3 font-medium">Irrigation Technician</p>
-              <p className="text-gray-600 text-sm leading-relaxed">
-                Maintaining and optimizing our water management systems
-              </p>
+            <div className="relative h-80 bg-gray-200 rounded-lg overflow-hidden">
+              <Image
+                src="/images/Osinka Kallaso/9c68d72e-39a7-4832-b781-2b2348050175.JPG"
+                alt="Osinka Kallaso community working together"
+                fill
+                className="object-cover"
+              />
             </div>
           </div>
         </div>
