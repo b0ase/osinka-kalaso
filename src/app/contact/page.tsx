@@ -88,8 +88,8 @@ export default function ContactPage() {
                   </div>
                   <div>
                     <h3 className="font-semibold text-gray-800 mb-1">Phone</h3>
-                    <p className="text-gray-600">+254 XXX XXX XXX</p>
-                    <p className="text-gray-600">+254 XXX XXX XXX</p>
+                    <p className="text-gray-600">+254 722 846966</p>
+                    <p className="text-gray-600">Project Organizer</p>
                   </div>
                 </div>
 
@@ -203,14 +203,19 @@ export default function ContactPage() {
 
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
             <div className="bg-white p-8 rounded-lg shadow-lg text-center">
-              <div className="w-24 h-24 mx-auto mb-4 bg-green-100 rounded-full flex items-center justify-center">
-                <div className="text-3xl">👨‍🌾</div>
+              <div className="w-24 h-24 mx-auto mb-4 bg-green-100 rounded-full flex items-center justify-center overflow-hidden">
+                <Image
+                  src="/images/Osinka Kallaso/2bf70573-4230-4c77-8282-a37f89f29e96.JPG"
+                  alt="Daniel Pariken Sakuda"
+                  fill
+                  className="object-cover"
+                />
               </div>
-              <h3 className="text-xl font-semibold mb-2 text-gray-800">John Mwangi</h3>
-              <p className="text-green-600 mb-4">Project Director</p>
-              <p className="text-gray-600 mb-4">john@osinkakalaso.org</p>
+              <h3 className="text-xl font-semibold mb-2 text-gray-800">Daniel Pariken Sakuda</h3>
+              <p className="text-green-600 mb-4">Project Organizer</p>
+              <p className="text-gray-600 mb-4">+254 722 846966</p>
               <p className="text-gray-600 text-sm">
-                Agricultural expert with 15+ years experience in sustainable farming practices
+                Community leader and organizer of the Osinka Kallaso sustainable farming project
               </p>
             </div>
 

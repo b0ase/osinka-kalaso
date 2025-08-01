@@ -8,146 +8,146 @@ export default function GalleryPage() {
   const [activeFilter, setActiveFilter] = useState('all')
 
   const galleryItems = [
-    // Hero Images - Farm Landscapes
+    // Farm Landscapes
     {
       id: 1,
-      title: "Golden Dawn Over Osinka Fields",
-      description: "The first light of day breaks over our sustainable onion farm, painting the landscape in warm golden hues",
+      title: "",
+      description: "Farm landscape",
       category: "landscapes",
       image: "/images/hero.jpg",
     },
     {
       id: 2,
-      title: "Misty Morning Harvest", 
-      description: "Early morning mist blankets our fields as farmers begin their daily work in harmony with nature",
+      title: "", 
+      description: "Farm landscape",
       category: "landscapes",
       image: "/images/hero-2.jpg",
     },
     {
       id: 3,
-      title: "Sustainable Farming Panorama",
-      description: "A breathtaking view of our integrated farming system where tradition meets modern sustainable practices",
+      title: "",
+      description: "Farm landscape",
       category: "landscapes",
       image: "/images/hero-3.jpg",
     },
     {
       id: 4,
-      title: "Community Farming Symphony",
-      description: "Where every farmer's hand contributes to the beautiful symphony of community agriculture",
+      title: "",
+      description: "Farm landscape",
       category: "landscapes",
       image: "/images/hero-4.jpg",
     },
 
-    // Authentic Osinka Kallaso Farmers - Community Stories
+    // Authentic Osinka Kallaso Farmers
     {
       id: 5,
-      title: "Daniel Pariken",
-      description: "A seasoned farmer sharing decades of knowledge with the next generation of Osinka Kallaso farmers",
+      title: "",
+      description: "Osinka Kallaso farmer",
       category: "farmers",
       image: "/images/Osinka Kallaso/2bf70573-4230-4c77-8282-a37f89f29e96.JPG",
     },
     {
       id: 6,
-      title: "Josphat Tajeu",
-      description: "Calloused hands that have nurtured countless crops, telling stories of resilience and dedication",
+      title: "",
+      description: "Osinka Kallaso farmer",
       category: "farmers",
       image: "/images/Osinka Kallaso/3ad53087-816a-4dd5-b6a5-cb02f03ec71f.JPG",
     },
     {
       id: 7,
-      title: "Jecinta Wangui",
-      description: "A community elder passing down traditional farming wisdom to ensure sustainable practices endure",
+      title: "",
+      description: "Osinka Kallaso farmer",
       category: "farmers",
       image: "/images/Osinka Kallaso/3c894237-9648-4c33-bfe3-bbba3a922418.JPG",
     },
     {
       id: 8,
-      title: "Ann Nagirro",
-      description: "A farmer's proud moment as they hold the fruits of their labor - onions that will feed families",
+      title: "",
+      description: "Osinka Kallaso farmer",
       category: "farmers",
       image: "/images/Osinka Kallaso/9c68d72e-39a7-4832-b781-2b2348050175.JPG",
     },
     {
       id: 9,
-      title: "Paul Sironka",
-      description: "Farmers gather to discuss crop rotation, water management, and community development strategies",
+      title: "",
+      description: "Osinka Kallaso farmer",
       category: "farmers",
       image: "/images/Osinka Kallaso/66d0faea-0153-423d-9f1e-e59cd6b6c4fb.JPG",
     },
     {
       id: 10,
-      title: "Simon Loomu",
-      description: "A farmer working with our new irrigation system, ensuring every drop counts for sustainable farming",
+      title: "",
+      description: "Osinka Kallaso farmer",
       category: "farmers",
       image: "/images/Osinka Kallaso/79b03dc4-fda1-4b5c-baba-af9ab69ad965.JPG",
     },
     {
       id: 11,
-      title: "Martin Tobiko",
-      description: "A farmer tending to onion seedlings, nurturing the foundation of community wealth and food security",
+      title: "",
+      description: "Osinka Kallaso farmer",
       category: "farmers",
       image: "/images/Osinka Kallaso/93f6cb54-2506-4675-97d7-7cafac7649bc.JPG",
     },
     {
       id: 12,
-      title: "Isabella Waithera",
-      description: "Embracing new techniques while honoring traditional wisdom - the future of sustainable agriculture",
+      title: "",
+      description: "Osinka Kallaso farmer",
       category: "farmers",
       image: "/images/Osinka Kallaso/147f4684-d379-4c8e-8ca6-0cbb5a229886.JPG",
     },
     {
       id: 13,
-      title: "Daniel Pariken",
-      description: "A farmer who understands the language of the earth, reading soil health and crop needs instinctively",
+      title: "",
+      description: "Osinka Kallaso farmer",
       category: "farmers",
       image: "/images/Osinka Kallaso/290edef7-f319-42d3-9ac4-5a06eccfad9c.JPG",
     },
     {
       id: 14,
-      title: "Josphat Tajeu",
-      description: "Using modern tools with time-tested methods to create the perfect farming environment",
+      title: "",
+      description: "Osinka Kallaso farmer",
       category: "farmers",
       image: "/images/Osinka Kallaso/386d69df-c4b2-40c0-a6f0-bcb714800a2f.JPG",
     },
     {
       id: 15,
-      title: "Jecinta Wangui",
-      description: "Building not just crops, but a stronger, more resilient farming community for future generations",
+      title: "",
+      description: "Osinka Kallaso farmer",
       category: "farmers",
       image: "/images/Osinka Kallaso/427a34a6-4097-4eab-8cae-a3a7200a1de2.JPG",
     },
     {
       id: 16,
-      title: "Ann Nagirro",
-      description: "Teaching the next generation the delicate balance of patience, timing, and natural wisdom",
+      title: "",
+      description: "Osinka Kallaso farmer",
       category: "farmers",
       image: "/images/Osinka Kallaso/429e875f-e4fb-4750-9763-03c351092c32.JPG",
     },
     {
       id: 17,
-      title: "Paul Sironka",
-      description: "Managing our precious water resources with precision and care for optimal crop health",
+      title: "",
+      description: "Osinka Kallaso farmer",
       category: "farmers",
       image: "/images/Osinka Kallaso/5108cac3-4480-440b-9d00-dff8e89e2415.JPG",
     },
     {
       id: 18,
-      title: "Simon Loomu",
-      description: "Protecting and nurturing crops through every stage of growth with unwavering dedication",
+      title: "",
+      description: "Osinka Kallaso farmer",
       category: "farmers",
       image: "/images/Osinka Kallaso/8734f09b-23a2-4241-8e61-8ea16f9def42.JPG",
     },
     {
       id: 19,
-      title: "Martin Tobiko",
-      description: "A farmer's vision materializes as they work the land that will feed and sustain their community",
+      title: "",
+      description: "Osinka Kallaso farmer",
       category: "farmers",
       image: "/images/Osinka Kallaso/055343ff-8a43-4848-9c8f-b8ff2a0e4a4a.JPG",
     },
     {
       id: 20,
-      title: "Isabella Waithera",
-      description: "Every movement calculated, every action purposeful - the art of sustainable farming perfected",
+      title: "",
+      description: "Osinka Kallaso farmer",
       category: "farmers",
       image: "/images/Osinka Kallaso/67093a6c-e2d8-4318-b0d9-fcaa67779b4f.JPG",
     },
@@ -491,22 +491,22 @@ export default function GalleryPage() {
     // Onion Harvest - The Fruits of Labor
     {
       id: 69,
-      title: "Golden Harvest Bounty",
-      description: "A magnificent display of our premium onions, ready to nourish families across Kenya",
+      title: "",
+      description: "Onion harvest",
       category: "harvest",
       image: "/images/onions.jpg",
     },
     {
       id: 70,
-      title: "Ruby Red Treasures",
-      description: "Our signature red onions, bursting with flavor and packed with essential nutrients",
+      title: "",
+      description: "Onion harvest",
       category: "harvest",
       image: "/images/red-onions.jpg",
     },
     {
       id: 71,
-      title: "Pearl White Harvest",
-      description: "Pure white onions, crisp and fresh, representing the pinnacle of sustainable farming",
+      title: "",
+      description: "Onion harvest",
       category: "harvest",
       image: "/images/white-onions.jpg",
     },
@@ -514,29 +514,29 @@ export default function GalleryPage() {
     // Water Project - Life Source
     {
       id: 72,
-      title: "The Water Revolution Begins",
-      description: "Initial setup of our transformative borehole project that will change farming forever",
+      title: "",
+      description: "Water project",
       category: "water-project",
       image: "/images/borehole-1.jpg",
     },
     {
       id: 73,
-      title: "Drilling for Prosperity",
-      description: "The moment when water meets earth, creating new possibilities for sustainable farming",
+      title: "",
+      description: "Water project",
       category: "water-project",
       image: "/images/borehole-2.jpg",
     },
     {
       id: 74,
-      title: "Infrastructure of Hope",
-      description: "Building the systems that will deliver life-giving water to every corner of our farm",
+      title: "",
+      description: "Water project",
       category: "water-project",
       image: "/images/borehole-3.jpg",
     },
     {
       id: 75,
-      title: "Water Security Achieved",
-      description: "The completion of our water project - a milestone in community development and sustainability",
+      title: "",
+      description: "Water project",
       category: "water-project",
       image: "/images/borehole-4.jpg",
     },
@@ -544,29 +544,29 @@ export default function GalleryPage() {
     // Crop Management - The Science of Growth
     {
       id: 76,
-      title: "The Growth Monitor",
-      description: "Carefully monitoring every stage of onion development for optimal health and yield",
+      title: "",
+      description: "Crop management",
       category: "crop-management",
       image: "/images/Crop Management Monitoring and maintaining healthy onion crops.jpg",
     },
     {
       id: 77,
-      title: "Precision Agriculture",
-      description: "Using advanced techniques to ensure every plant receives exactly what it needs to thrive",
+      title: "",
+      description: "Crop management",
       category: "crop-management",
       image: "/images/Crop Management Monitoring and maintaining healthy onion crops2.jpg",
     },
     {
       id: 78,
-      title: "Quality Assurance",
-      description: "Rigorous quality control processes ensure our onions meet the highest standards",
+      title: "",
+      description: "Crop management",
       category: "crop-management",
       image: "/images/Crop Management Monitoring and maintaining healthy onion crops3.jpg",
     },
     {
       id: 79,
-      title: "Sustainable Practices",
-      description: "Implementing eco-friendly crop management that protects our environment and community",
+      title: "",
+      description: "Crop management",
       category: "crop-management",
       image: "/images/Crop Management Monitoring and maintaining healthy onion crops4.jpg",
     },
@@ -574,8 +574,8 @@ export default function GalleryPage() {
     // Farm Overview
     {
       id: 80,
-      title: "Osinka Kallaso Farm Vista",
-      description: "A panoramic view of our sustainable farming paradise, where innovation meets tradition",
+      title: "",
+      description: "Farm overview",
       category: "overview",
       image: "/images/onion-farm.jpg",
     },
@@ -665,15 +665,10 @@ export default function GalleryPage() {
                   <div className="absolute inset-0 bg-black/0 group-hover:bg-black/20 transition-colors duration-300"></div>
                 </div>
                 <div className="p-4 md:p-6">
-                  <h3 className="text-lg md:text-xl font-semibold mb-2 text-gray-800">{item.title}</h3>
-                  <p className="text-gray-600 mb-4 text-sm md:text-base">{item.description}</p>
                   <div className="flex justify-between items-center">
                     <span className="text-xs md:text-sm text-green-600 font-medium capitalize">
                       {item.category.replace('-', ' ')}
                     </span>
-                    <button className="text-green-600 hover:text-green-700 font-medium opacity-0 group-hover:opacity-100 transition-opacity text-sm">
-                      View Details →
-                    </button>
                   </div>
                 </div>
               </div>
