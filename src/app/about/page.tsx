@@ -128,7 +128,7 @@ export default function AboutPage() {
                   className="object-cover"
                 />
               </div>
-              <h3 className="text-xl font-semibold mb-2">Community Leader</h3>
+              <h3 className="text-xl font-semibold mb-2 text-gray-800">Community Leader</h3>
               <p className="text-gray-600">Leading sustainable farming initiatives</p>
             </div>
             <div className="text-center">
@@ -140,7 +140,7 @@ export default function AboutPage() {
                   className="object-cover"
                 />
               </div>
-              <h3 className="text-xl font-semibold mb-2">Expert Farmer</h3>
+              <h3 className="text-xl font-semibold mb-2 text-gray-800">Expert Farmer</h3>
               <p className="text-gray-600">Years of experience in onion cultivation</p>
             </div>
             <div className="text-center">
@@ -152,7 +152,7 @@ export default function AboutPage() {
                   className="object-cover"
                 />
               </div>
-              <h3 className="text-xl font-semibold mb-2">Training Coordinator</h3>
+              <h3 className="text-xl font-semibold mb-2 text-gray-800">Training Coordinator</h3>
               <p className="text-gray-600">Sharing knowledge with new farmers</p>
             </div>
           </div>

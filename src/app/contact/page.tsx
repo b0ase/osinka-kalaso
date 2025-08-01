@@ -206,7 +206,7 @@ export default function ContactPage() {
               <div className="w-24 h-24 mx-auto mb-4 bg-green-100 rounded-full flex items-center justify-center">
                 <div className="text-3xl">👨‍🌾</div>
               </div>
-              <h3 className="text-xl font-semibold mb-2">John Mwangi</h3>
+              <h3 className="text-xl font-semibold mb-2 text-gray-800">John Mwangi</h3>
               <p className="text-green-600 mb-4">Project Director</p>
               <p className="text-gray-600 mb-4">john@osinkakalaso.org</p>
               <p className="text-gray-600 text-sm">
@@ -218,7 +218,7 @@ export default function ContactPage() {
               <div className="w-24 h-24 mx-auto mb-4 bg-green-100 rounded-full flex items-center justify-center">
                 <div className="text-3xl">👩‍💼</div>
               </div>
-              <h3 className="text-xl font-semibold mb-2">Sarah Wanjiku</h3>
+              <h3 className="text-xl font-semibold mb-2 text-gray-800">Sarah Wanjiku</h3>
               <p className="text-green-600 mb-4">Community Coordinator</p>
               <p className="text-gray-600 mb-4">sarah@osinkakalaso.org</p>
               <p className="text-gray-600 text-sm">
@@ -230,7 +230,7 @@ export default function ContactPage() {
               <div className="w-24 h-24 mx-auto mb-4 bg-green-100 rounded-full flex items-center justify-center">
                 <div className="text-3xl">👨‍🔬</div>
               </div>
-              <h3 className="text-xl font-semibold mb-2">David Ochieng</h3>
+              <h3 className="text-xl font-semibold mb-2 text-gray-800">David Ochieng</h3>
               <p className="text-green-600 mb-4">Agricultural Specialist</p>
               <p className="text-gray-600 mb-4">david@osinkakalaso.org</p>
               <p className="text-gray-600 text-sm">

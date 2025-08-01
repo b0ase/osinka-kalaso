@@ -153,7 +153,7 @@ export default function WaterProjectPage() {
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
             <div className="bg-white p-8 rounded-lg shadow-lg">
               <div className="text-4xl mb-4">🌾</div>
-              <h3 className="text-xl font-semibold mb-4">Agricultural Productivity</h3>
+              <h3 className="text-xl font-semibold mb-4 text-gray-800">Agricultural Productivity</h3>
               <p className="text-gray-600">
                 Consistent water access enables year-round farming, multiple harvest cycles, 
                 and significantly increased crop yields and quality.
@@ -161,7 +161,7 @@ export default function WaterProjectPage() {
             </div>
             <div className="bg-white p-8 rounded-lg shadow-lg">
               <div className="text-4xl mb-4">🏥</div>
-              <h3 className="text-xl font-semibold mb-4">Community Health</h3>
+              <h3 className="text-xl font-semibold mb-4 text-gray-800">Community Health</h3>
               <p className="text-gray-600">
                 Clean water access reduces waterborne diseases and improves overall community 
                 health, especially for children and vulnerable populations.
@@ -169,7 +169,7 @@ export default function WaterProjectPage() {
             </div>
             <div className="bg-white p-8 rounded-lg shadow-lg">
               <div className="text-4xl mb-4">💰</div>
-              <h3 className="text-xl font-semibold mb-4">Economic Stability</h3>
+              <h3 className="text-xl font-semibold mb-4 text-gray-800">Economic Stability</h3>
               <p className="text-gray-600">
                 Reliable water access creates stable income opportunities and reduces 
                 dependency on unpredictable rainfall patterns.
@@ -177,7 +177,7 @@ export default function WaterProjectPage() {
             </div>
             <div className="bg-white p-8 rounded-lg shadow-lg">
               <div className="text-4xl mb-4">👨‍👩‍👧‍👦</div>
-              <h3 className="text-xl font-semibold mb-4">Time Savings</h3>
+              <h3 className="text-xl font-semibold mb-4 text-gray-800">Time Savings</h3>
               <p className="text-gray-600">
                 Eliminates the need for long journeys to collect water, allowing families 
                 to focus on education, work, and community activities.
@@ -185,7 +185,7 @@ export default function WaterProjectPage() {
             </div>
             <div className="bg-white p-8 rounded-lg shadow-lg">
               <div className="text-4xl mb-4">🌱</div>
-              <h3 className="text-xl font-semibold mb-4">Environmental Impact</h3>
+              <h3 className="text-xl font-semibold mb-4 text-gray-800">Environmental Impact</h3>
               <p className="text-gray-600">
                 Sustainable water management reduces soil erosion and promotes 
                 environmentally-friendly farming practices.
@@ -193,7 +193,7 @@ export default function WaterProjectPage() {
             </div>
             <div className="bg-white p-8 rounded-lg shadow-lg">
               <div className="text-4xl mb-4">🏘️</div>
-              <h3 className="text-xl font-semibold mb-4">Community Development</h3>
+              <h3 className="text-xl font-semibold mb-4 text-gray-800">Community Development</h3>
               <p className="text-gray-600">
                 Water access attracts investment, improves living standards, and 
                 creates opportunities for community growth and development.

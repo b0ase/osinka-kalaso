@@ -703,7 +703,7 @@ export default function GalleryPage() {
                   />
                 </div>
                 <div>
-                  <h3 className="text-xl font-semibold">Josphat Tajeu&apos;s Journey</h3>
+                  <h3 className="text-xl font-semibold text-gray-800">Josphat Tajeu&apos;s Journey</h3>
                   <p className="text-gray-600">Master Farmer, Osinka Kallaso Community</p>
                 </div>
               </div>
@@ -726,7 +726,7 @@ export default function GalleryPage() {
                   />
                 </div>
                 <div>
-                  <h3 className="text-xl font-semibold">Paul Sironka&apos;s Mission</h3>
+                  <h3 className="text-xl font-semibold text-gray-800">Paul Sironka&apos;s Mission</h3>
                   <p className="text-gray-600">Community Leader & Innovation Specialist</p>
                 </div>
               </div>
@@ -832,7 +832,7 @@ export default function GalleryPage() {
                   className="object-cover"
                 />
               </div>
-              <h3 className="text-lg md:text-xl font-semibold mb-2">Health & Wellness</h3>
+                              <h3 className="text-lg md:text-xl font-semibold mb-2 text-gray-800">Health & Wellness</h3>
               <p className="text-gray-600 text-sm md:text-base">
                 Clean water access has reduced waterborne diseases by 60% and improved overall community health
               </p>
@@ -846,7 +846,7 @@ export default function GalleryPage() {
                   className="object-cover"
                 />
               </div>
-              <h3 className="text-lg md:text-xl font-semibold mb-2">Education Access</h3>
+                              <h3 className="text-lg md:text-xl font-semibold mb-2 text-gray-800">Education Access</h3>
               <p className="text-gray-600 text-sm md:text-base">
                 85% of children from participating families now attend school regularly with improved resources
               </p>
@@ -860,7 +860,7 @@ export default function GalleryPage() {
                   className="object-cover"
                 />
               </div>
-              <h3 className="text-lg md:text-xl font-semibold mb-2">Economic Prosperity</h3>
+                              <h3 className="text-lg md:text-xl font-semibold mb-2 text-gray-800">Economic Prosperity</h3>
               <p className="text-gray-600 text-sm md:text-base">
                 Average household income has increased by 250% since project inception, creating lasting wealth
               </p>

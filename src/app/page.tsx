@@ -458,28 +458,28 @@ export default function Home() {
           <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
             <div className="text-center">
               <div className="text-5xl mb-4">👨‍🌾</div>
-              <h3 className="text-xl font-semibold mb-2">Farmer Empowerment</h3>
+              <h3 className="text-xl font-semibold mb-2 text-gray-800">Farmer Empowerment</h3>
               <p className="text-gray-600">
                 Training and resources for local farmers to adopt modern farming techniques
               </p>
             </div>
             <div className="text-center">
               <div className="text-5xl mb-4">💼</div>
-              <h3 className="text-xl font-semibold mb-2">Job Creation</h3>
+              <h3 className="text-xl font-semibold mb-2 text-gray-800">Job Creation</h3>
               <p className="text-gray-600">
                 New employment opportunities in farming, processing, and distribution
               </p>
             </div>
             <div className="text-center">
               <div className="text-5xl mb-4">🏥</div>
-              <h3 className="text-xl font-semibold mb-2">Health Benefits</h3>
+              <h3 className="text-xl font-semibold mb-2 text-gray-800">Health Benefits</h3>
               <p className="text-gray-600">
                 Clean water access improves community health and reduces waterborne diseases
               </p>
             </div>
             <div className="text-center">
               <div className="text-5xl mb-4">🎓</div>
-              <h3 className="text-xl font-semibold mb-2">Education</h3>
+              <h3 className="text-xl font-semibold mb-2 text-gray-800">Education</h3>
               <p className="text-gray-600">
                 Increased income enables families to invest in children&apos;s education
               </p>

@@ -71,21 +71,21 @@ export default function DonatePage() {
           <div className="grid md:grid-cols-3 gap-8">
             <div className="text-center">
               <div className="text-5xl mb-4">💧</div>
-              <h3 className="text-xl font-semibold mb-2">Water Access</h3>
+              <h3 className="text-xl font-semibold mb-2 text-gray-800">Water Access</h3>
               <p className="text-gray-600">
                 Provide reliable water access for farming and domestic use
               </p>
             </div>
             <div className="text-center">
               <div className="text-5xl mb-4">🌾</div>
-              <h3 className="text-xl font-semibold mb-2">Food Security</h3>
+              <h3 className="text-xl font-semibold mb-2 text-gray-800">Food Security</h3>
               <p className="text-gray-600">
                 Enable year-round farming and increased crop yields
               </p>
             </div>
             <div className="text-center">
               <div className="text-5xl mb-4">💰</div>
-              <h3 className="text-xl font-semibold mb-2">Economic Growth</h3>
+              <h3 className="text-xl font-semibold mb-2 text-gray-800">Economic Growth</h3>
               <p className="text-gray-600">
                 Create sustainable income opportunities for local families
               </p>
