@@ -116,10 +116,10 @@ export default function EconomicsPage() {
             <div className="bg-white p-8 rounded-lg shadow-lg">
               <div className="relative h-96 bg-gray-200 rounded-lg overflow-hidden">
                 <Image
-                  src="/images/kenyan-farmer-3.jpg"
+                  src="/images/Osinka Kallaso/2bf70573-4230-4c77-8282-a37f89f29e96.JPG"
                   alt="Sustainable onion farming practices"
                   fill
-                  className="object-cover"
+                  className="object-cover object-center"
                 />
               </div>
             </div>
