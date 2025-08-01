@@ -53,7 +53,7 @@ export default function ContactPage() {
           <div className="grid lg:grid-cols-2 gap-12">
             <div>
               <h2 className="text-3xl font-bold text-gray-800 mb-8">Get in Touch</h2>
-              <p className="text-gray-600 mb-8">
+              <p className="text-black mb-8">
                 We&apos;d love to hear from you! Whether you have questions about our project, 
                 want to learn more about how to get involved, or are interested in supporting 
                 our water access initiative, please reach out to us.
@@ -66,8 +66,8 @@ export default function ContactPage() {
                   </div>
                   <div>
                     <h3 className="font-semibold text-gray-800 mb-1">Location</h3>
-                    <p className="text-gray-600">Osinka Kalaso, Kenya</p>
-                    <p className="text-gray-600">East Africa</p>
+                    <p className="text-black">Osinka Kalaso, Kenya</p>
+                    <p className="text-black">East Africa</p>
                   </div>
                 </div>
 
@@ -77,8 +77,8 @@ export default function ContactPage() {
                   </div>
                   <div>
                     <h3 className="font-semibold text-gray-800 mb-1">Email</h3>
-                    <p className="text-gray-600">info@osinkakalaso.website</p>
-                    <p className="text-gray-600">support@osinkakalaso.website</p>
+                    <p className="text-black">info@osinkakalaso.website</p>
+                    <p className="text-black">support@osinkakalaso.website</p>
                   </div>
                 </div>
 
@@ -88,8 +88,8 @@ export default function ContactPage() {
                   </div>
                   <div>
                     <h3 className="font-semibold text-gray-800 mb-1">Phone</h3>
-                    <p className="text-gray-600">+254 722 846966</p>
-                    <p className="text-gray-600">Project Organizer</p>
+                    <p className="text-black">+254 722 846966</p>
+                    <p className="text-black">Project Organizer</p>
                   </div>
                 </div>
 
@@ -99,8 +99,8 @@ export default function ContactPage() {
                   </div>
                   <div>
                     <h3 className="font-semibold text-gray-800 mb-1">Office Hours</h3>
-                    <p className="text-gray-600">Monday - Friday: 8:00 AM - 6:00 PM</p>
-                    <p className="text-gray-600">Saturday: 9:00 AM - 3:00 PM</p>
+                    <p className="text-black">Monday - Friday: 8:00 AM - 6:00 PM</p>
+                    <p className="text-black">Saturday: 9:00 AM - 3:00 PM</p>
                   </div>
                 </div>
               </div>
@@ -196,7 +196,7 @@ export default function ContactPage() {
         <div className="container mx-auto px-4">
           <div className="text-center mb-16">
             <h2 className="text-3xl font-bold text-gray-800 mb-4">Meet Our Team</h2>
-            <p className="text-xl text-gray-600 max-w-3xl mx-auto">
+            <p className="text-xl text-black max-w-3xl mx-auto">
               Connect directly with our project leaders and team members
             </p>
           </div>
@@ -213,8 +213,8 @@ export default function ContactPage() {
               </div>
               <h3 className="text-xl font-semibold mb-2 text-gray-800">Daniel Pariken Sakuda</h3>
               <p className="text-green-600 mb-4">Project Organizer</p>
-              <p className="text-gray-600 mb-4">+254 722 846966</p>
-              <p className="text-gray-600 text-sm">
+              <p className="text-black mb-4">+254 722 846966</p>
+              <p className="text-black text-sm">
                 Community leader and organizer of the Osinka Kallaso sustainable farming project
               </p>
             </div>
@@ -230,8 +230,8 @@ export default function ContactPage() {
               </div>
               <h3 className="text-xl font-semibold mb-2 text-gray-800">Paul Sironka</h3>
               <p className="text-green-600 mb-4">Innovation & Technology Lead</p>
-              <p className="text-gray-600 mb-4">paul@osinkakalaso.website</p>
-              <p className="text-gray-600 text-sm">
+              <p className="text-black mb-4">paul@osinkakalaso.website</p>
+              <p className="text-black text-sm">
                 Leading sustainable farming innovation and water management systems
               </p>
             </div>
@@ -247,8 +247,8 @@ export default function ContactPage() {
               </div>
               <h3 className="text-xl font-semibold mb-2 text-gray-800">Simon Loomu</h3>
               <p className="text-green-600 mb-4">Equipment & Infrastructure Manager</p>
-              <p className="text-gray-600 mb-4">simon@osinkakalaso.website</p>
-              <p className="text-gray-600 text-sm">
+              <p className="text-black mb-4">simon@osinkakalaso.website</p>
+              <p className="text-black text-sm">
                 Managing modern farming equipment and sustainable infrastructure
               </p>
             </div>
@@ -261,7 +261,7 @@ export default function ContactPage() {
         <div className="container mx-auto px-4">
           <div className="text-center mb-16">
             <h2 className="text-3xl font-bold text-gray-800 mb-4">Frequently Asked Questions</h2>
-            <p className="text-xl text-gray-600 max-w-3xl mx-auto">
+            <p className="text-xl text-black max-w-3xl mx-auto">
               Common questions about our project and how to get involved
             </p>
           </div>
@@ -269,7 +269,7 @@ export default function ContactPage() {
           <div className="max-w-4xl mx-auto space-y-6">
             <div className="bg-gray-50 p-6 rounded-lg">
               <h3 className="text-lg font-semibold mb-2">How can I support the Osinka Kalaso project?</h3>
-              <p className="text-gray-600">
+              <p className="text-black">
                 You can support us through donations, volunteering, spreading awareness, or partnering with us. 
                 Visit our donation page to learn more about specific ways to contribute.
               </p>
@@ -277,7 +277,7 @@ export default function ContactPage() {
 
             <div className="bg-gray-50 p-6 rounded-lg">
               <h3 className="text-lg font-semibold mb-2">What is the timeline for the water project?</h3>
-              <p className="text-gray-600">
+              <p className="text-black">
                 The complete water project will take approximately 12-16 weeks from start to finish, 
                 including site assessment, drilling, infrastructure installation, and testing.
               </p>
@@ -285,7 +285,7 @@ export default function ContactPage() {
 
             <div className="bg-gray-50 p-6 rounded-lg">
               <h3 className="text-lg font-semibold mb-2">How many families will benefit from the water project?</h3>
-              <p className="text-gray-600">
+              <p className="text-black">
                 Our borehole project will provide sustainable water access for over 100 families 
                 in the Osinka Kalaso community, including both farming and domestic water needs.
               </p>
@@ -293,7 +293,7 @@ export default function ContactPage() {
 
             <div className="bg-gray-50 p-6 rounded-lg">
               <h3 className="text-lg font-semibold mb-2">Can I visit the project site?</h3>
-              <p className="text-gray-600">
+              <p className="text-black">
                 Yes! We welcome visitors and volunteers. Please contact us in advance to arrange 
                 a visit and learn about our current visitor guidelines.
               </p>
@@ -301,7 +301,7 @@ export default function ContactPage() {
 
             <div className="bg-gray-50 p-6 rounded-lg">
               <h3 className="text-lg font-semibold mb-2">How do you ensure the sustainability of the project?</h3>
-              <p className="text-gray-600">
+              <p className="text-black">
                 We implement sustainable farming practices, provide ongoing training, establish 
                 local maintenance systems, and create long-term economic opportunities for the community.
               </p>

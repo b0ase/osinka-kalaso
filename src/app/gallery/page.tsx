@@ -631,7 +631,7 @@ export default function GalleryPage() {
       </section>
 
       {/* Gallery Filters */}
-      <section className="py-8 bg-white border-b sticky top-16 z-40 relative">
+      <section className="py-8 bg-white border-b sticky top-16 z-40">
         <div className="container mx-auto px-4">
           <div className="flex flex-wrap justify-center gap-2 md:gap-4">
             {categories.map((category) => (
@@ -652,7 +652,7 @@ export default function GalleryPage() {
       </section>
 
       {/* Gallery Grid */}
-      <section className="py-20 bg-gray-50">
+      <section className="relative z-10 py-20 bg-gray-50">
         <div className="container mx-auto px-4">
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-4 md:gap-6 lg:gap-8">
             {filteredItems.map((item) => (

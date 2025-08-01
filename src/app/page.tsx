@@ -108,7 +108,7 @@ export default function Home() {
         <div className="container mx-auto px-4">
           <div className="text-center mb-16">
             <h2 className="text-4xl font-bold text-gray-800 mb-4">About Osinka Kalaso</h2>
-            <p className="text-xl text-gray-600 max-w-3xl mx-auto">
+            <p className="text-xl text-black max-w-3xl mx-auto">
               Located in the heart of Kenya, Osinka Kalaso is dedicated to transforming local agriculture 
               through sustainable onion farming practices and community development.
             </p>
@@ -117,26 +117,26 @@ export default function Home() {
           <div className="grid md:grid-cols-2 gap-12 items-center">
             <div>
               <h3 className="text-2xl font-semibold text-gray-800 mb-6">Our Mission</h3>
-              <p className="text-gray-600 mb-6">
+              <p className="text-black mb-6">
                 We are committed to empowering local farmers with the knowledge, resources, and infrastructure 
                 needed to cultivate high-quality onions while ensuring sustainable water access for the entire community.
               </p>
-              <p className="text-gray-600 mb-6">
+              <p className="text-black mb-6">
                 Our project combines modern agricultural techniques with traditional farming wisdom, 
                 creating a model that can be replicated across Kenya.
               </p>
               <div className="grid grid-cols-3 gap-4 mt-8">
                 <div className="text-center p-4 bg-green-50 rounded-lg">
                   <div className="text-3xl font-bold text-green-600">5</div>
-                  <div className="text-sm text-gray-600">Acres Farming</div>
+                  <div className="text-sm text-black">Acres Farming</div>
                 </div>
                 <div className="text-center p-4 bg-green-50 rounded-lg">
                   <div className="text-3xl font-bold text-green-600">200m</div>
-                  <div className="text-sm text-gray-600">Borehole Depth</div>
+                  <div className="text-sm text-black">Borehole Depth</div>
                 </div>
                 <div className="text-center p-4 bg-green-50 rounded-lg">
                   <div className="text-3xl font-bold text-green-600">KES 2.8M</div>
-                  <div className="text-sm text-gray-600">Project Cost</div>
+                  <div className="text-sm text-black">Project Cost</div>
                 </div>
               </div>
             </div>
@@ -157,7 +157,7 @@ export default function Home() {
         <div className="container mx-auto px-4">
           <div className="text-center mb-16">
             <h2 className="text-4xl font-bold text-gray-800 mb-4">Water Access Project</h2>
-            <p className="text-xl text-gray-600 max-w-3xl mx-auto">
+            <p className="text-xl text-black max-w-3xl mx-auto">
               Our most critical initiative: drilling a borehole to provide sustainable water access 
               for farming and community needs.
             </p>
@@ -167,7 +167,7 @@ export default function Home() {
             <div className="bg-white p-8 rounded-lg shadow-lg">
               <div className="text-4xl mb-4">💧</div>
               <h3 className="text-xl font-semibold mb-4 text-gray-800">Borehole Drilling</h3>
-              <p className="text-gray-600">
+              <p className="text-black">
                 Installing a deep borehole to access reliable groundwater, ensuring year-round 
                 water availability for irrigation and domestic use.
               </p>
@@ -175,7 +175,7 @@ export default function Home() {
             <div className="bg-white p-8 rounded-lg shadow-lg">
               <div className="text-4xl mb-4">🚰</div>
               <h3 className="text-xl font-semibold mb-4 text-gray-800">Water Storage</h3>
-              <p className="text-gray-600">
+              <p className="text-black">
                 Building water storage tanks and distribution systems to efficiently manage 
                 water resources across the farm and community.
               </p>
@@ -183,7 +183,7 @@ export default function Home() {
             <div className="bg-white p-8 rounded-lg shadow-lg">
               <div className="text-4xl mb-4">🌿</div>
               <h3 className="text-xl font-semibold mb-4 text-gray-800">Irrigation System</h3>
-              <p className="text-gray-600">
+              <p className="text-black">
                 Implementing modern irrigation techniques to maximize water efficiency 
                 and onion crop yields.
               </p>
