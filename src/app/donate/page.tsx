@@ -63,7 +63,7 @@ export default function DonatePage() {
         <div className="container mx-auto px-4">
           <div className="text-center mb-16">
             <h2 className="text-3xl font-bold text-gray-800 mb-4">Your Donation Makes a Difference</h2>
-            <p className="text-xl text-black max-w-3xl mx-auto">
+            <p className="text-xl text-gray-600 max-w-3xl mx-auto">
               Every contribution directly impacts the lives of Kenyan farmers and their families
             </p>
           </div>
@@ -72,21 +72,21 @@ export default function DonatePage() {
             <div className="text-center">
               <div className="text-5xl mb-4">💧</div>
               <h3 className="text-xl font-semibold mb-2 text-gray-800">Water Access</h3>
-              <p className="text-black">
+              <p className="text-gray-600">
                 Provide reliable water access for farming and domestic use
               </p>
             </div>
             <div className="text-center">
               <div className="text-5xl mb-4">🌾</div>
               <h3 className="text-xl font-semibold mb-2 text-gray-800">Food Security</h3>
-              <p className="text-black">
+              <p className="text-gray-600">
                 Enable year-round farming and increased crop yields
               </p>
             </div>
             <div className="text-center">
               <div className="text-5xl mb-4">💰</div>
               <h3 className="text-xl font-semibold mb-2 text-gray-800">Economic Growth</h3>
-              <p className="text-black">
+              <p className="text-gray-600">
                 Create sustainable income opportunities for local families
               </p>
             </div>
@@ -99,7 +99,7 @@ export default function DonatePage() {
         <div className="container mx-auto px-4">
           <div className="text-center mb-16">
             <h2 className="text-3xl font-bold text-gray-800 mb-4">Project Progress</h2>
-            <p className="text-xl text-black max-w-3xl mx-auto">
+            <p className="text-xl text-gray-600 max-w-3xl mx-auto">
               Track our progress towards the KES 2,865,000 goal for the borehole drilling & solarization project
             </p>
           </div>
@@ -113,21 +113,21 @@ export default function DonatePage() {
               <div className="w-full bg-gray-200 rounded-full h-4 mb-4">
                 <div className="bg-green-600 h-4 rounded-full" style={{ width: '0%' }}></div>
               </div>
-              <p className="text-black">0% of our goal achieved - KES 2,865,000 needed for complete project</p>
+              <p className="text-gray-600">0% of our goal achieved - KES 2,865,000 needed for complete project</p>
             </div>
 
             <div className="grid md:grid-cols-3 gap-6 mt-8">
               <div className="bg-white p-6 rounded-lg shadow-lg text-center">
                 <div className="text-3xl font-bold text-green-600 mb-2">KES 0</div>
-                <p className="text-black">Raised So Far</p>
+                <p className="text-gray-600">Raised So Far</p>
               </div>
               <div className="bg-white p-6 rounded-lg shadow-lg text-center">
                 <div className="text-3xl font-bold text-blue-600 mb-2">0</div>
-                <p className="text-black">Donors</p>
+                <p className="text-gray-600">Donors</p>
               </div>
               <div className="bg-white p-6 rounded-lg shadow-lg text-center">
                 <div className="text-3xl font-bold text-yellow-600 mb-2">12</div>
-                <p className="text-black">Weeks Remaining</p>
+                <p className="text-gray-600">Weeks Remaining</p>
               </div>
             </div>
           </div>
@@ -141,7 +141,7 @@ export default function DonatePage() {
             <div className="grid lg:grid-cols-2 gap-12">
               <div>
                 <h2 className="text-3xl font-bold text-gray-800 mb-6">Make a Donation</h2>
-                <p className="text-black mb-8">
+                <p className="text-gray-600 mb-8">
                   Choose your donation amount and help us bring sustainable water access to the 
                   Osinka Kalaso community. Every contribution makes a real difference.
                 </p>
@@ -172,7 +172,7 @@ export default function DonatePage() {
                             }`}
                           >
                             <div className="font-semibold text-gray-800">{option.label}</div>
-                            <div className="text-sm text-black">{option.description}</div>
+                            <div className="text-sm text-gray-600">{option.description}</div>
                           </label>
                         </div>
                       ))}
@@ -277,32 +277,32 @@ export default function DonatePage() {
                 <div className="space-y-6">
                   <div className="bg-blue-50 p-6 rounded-lg">
                     <h4 className="font-semibold text-blue-800 mb-2">Paperwork & Permits</h4>
-                    <p className="text-black mb-2">KES 146,000</p>
-                    <p className="text-sm text-black">
+                    <p className="text-gray-600 mb-2">KES 146,000</p>
+                    <p className="text-sm text-gray-600">
                       Ground water survey, NEMA, WRMA, and County Council permits
                     </p>
                   </div>
 
                   <div className="bg-green-50 p-6 rounded-lg">
                     <h4 className="font-semibold text-green-800 mb-2">Borehole Drilling & Casing</h4>
-                    <p className="text-black mb-2">KES 1,380,000</p>
-                    <p className="text-sm text-black">
+                    <p className="text-gray-600 mb-2">KES 1,380,000</p>
+                    <p className="text-sm text-gray-600">
                       Mobilization, drilling, casing supply & installation, gravel packing, cleaning, test pumping, and chemical analysis
                     </p>
                   </div>
 
                   <div className="bg-yellow-50 p-6 rounded-lg">
                     <h4 className="font-semibold text-yellow-800 mb-2">Solar Pumping Equipment</h4>
-                    <p className="text-black mb-2">KES 1,339,000</p>
-                    <p className="text-sm text-black">
+                    <p className="text-gray-600 mb-2">KES 1,339,000</p>
+                    <p className="text-sm text-gray-600">
                       Submersible pump, motor, cables, pipes, hybrid inverter, solar panels, and steel works
                     </p>
                   </div>
 
                   <div className="bg-purple-50 p-6 rounded-lg">
                     <h4 className="font-semibold text-purple-800 mb-2">Total Project Cost</h4>
-                    <p className="text-black mb-2">KES 2,865,000</p>
-                    <p className="text-sm text-black">
+                    <p className="text-gray-600 mb-2">KES 2,865,000</p>
+                    <p className="text-sm text-gray-600">
                       Complete borehole drilling and solarization project for sustainable water access
                     </p>
                   </div>
@@ -310,7 +310,7 @@ export default function DonatePage() {
 
                 <div className="mt-8 p-6 bg-green-50 rounded-lg">
                   <h4 className="font-semibold text-green-800 mb-2">Transparency Promise</h4>
-                  <p className="text-black text-sm">
+                  <p className="text-gray-600 text-sm">
                     We provide regular updates on project progress and detailed financial reports. 
                     Your donation will be used exclusively for the water project and community development.
                   </p>
@@ -326,14 +326,14 @@ export default function DonatePage() {
         <div className="container mx-auto px-4">
           <div className="text-center mb-16">
             <h2 className="text-3xl font-bold text-gray-800 mb-4">Donor Testimonials</h2>
-            <p className="text-xl text-black max-w-3xl mx-auto">
+            <p className="text-xl text-gray-600 max-w-3xl mx-auto">
               Hear from our supporters about why they chose to help the Osinka Kalaso project
             </p>
           </div>
 
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
             <div className="bg-white p-6 rounded-lg shadow-lg">
-              <p className="text-black mb-4">
+              <p className="text-gray-600 mb-4">
                 &ldquo;I was moved by the impact this project will have on the community. 
                 Water access is fundamental to sustainable development.&rdquo;
               </p>
@@ -349,7 +349,7 @@ export default function DonatePage() {
             </div>
 
             <div className="bg-white p-6 rounded-lg shadow-lg">
-              <p className="text-black mb-4">
+              <p className="text-gray-600 mb-4">
                 &ldquo;The transparency and detailed planning of this project gave me confidence 
                 that my donation would make a real difference.&rdquo;
               </p>
@@ -365,7 +365,7 @@ export default function DonatePage() {
             </div>
 
             <div className="bg-white p-6 rounded-lg shadow-lg">
-              <p className="text-black mb-4">
+              <p className="text-gray-600 mb-4">
                 &ldquo;Supporting sustainable agriculture in Kenya is close to my heart. 
                 This project combines water access with economic empowerment perfectly.&rdquo;
               </p>
