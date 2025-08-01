@@ -605,46 +605,7 @@ export default function Home() {
         </div>
       </section>
 
-      {/* Footer */}
-      <footer className="bg-gray-800 text-white py-12">
-        <div className="container mx-auto px-4">
-          <div className="grid md:grid-cols-3 gap-8">
-            <div>
-              <div className="flex items-center space-x-3 mb-4">
-                <div className="relative w-12 h-12">
-                  <Image
-                    src="/images/Osinka Kallaso/Osinka-Kalaso-Logo.JPG"
-                    alt="Osinka Kalaso Logo"
-                    fill
-                    className="object-contain"
-                  />
-                </div>
-                <h3 className="text-xl font-semibold">Osinka Kalaso</h3>
-              </div>
-              <p className="text-gray-300">
-                Empowering Kenyan farmers through sustainable onion cultivation and community development.
-              </p>
-            </div>
-            <div>
-              <h4 className="text-lg font-semibold mb-4">Contact</h4>
-              <p className="text-gray-300 mb-2">Email: info@osinkalaso.website</p>
-              <p className="text-gray-300 mb-2">Phone: +254 XXX XXX XXX</p>
-              <p className="text-gray-300">Location: Kenya</p>
-            </div>
-            <div>
-              <h4 className="text-lg font-semibold mb-4">Follow Us</h4>
-              <div className="flex space-x-4">
-                <a href="#" className="text-gray-300 hover:text-white">Facebook</a>
-                <a href="#" className="text-gray-300 hover:text-white">Twitter</a>
-                <a href="#" className="text-gray-300 hover:text-white">Instagram</a>
-              </div>
-            </div>
-          </div>
-          <div className="border-t border-gray-700 mt-8 pt-8 text-center text-gray-300">
-            <p>&copy; 2024 Osinka Kalaso Onion Farm. All rights reserved.</p>
-          </div>
-        </div>
-      </footer>
+
     </main>
   )
 }

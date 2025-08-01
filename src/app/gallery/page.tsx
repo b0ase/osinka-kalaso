@@ -617,7 +617,7 @@ export default function GalleryPage() {
           </p>
         </div>
         {/* Background Image */}
-        <div className="absolute inset-0 z-0">
+        <div className="absolute inset-0 z-0 overflow-hidden">
           <Image
             src="/images/Osinka Kallaso/429e875f-e4fb-4750-9763-03c351092c32.JPG"
             alt="Osinka Kallaso farming community"
