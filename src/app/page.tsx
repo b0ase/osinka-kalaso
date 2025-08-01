@@ -190,36 +190,36 @@ export default function Home() {
             </div>
           </div>
 
-          {/* Borehole Images Grid */}
+          {/* Water Project Images Grid */}
           <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6 mb-16">
             <div className="relative h-48 bg-gray-200 rounded-lg overflow-hidden">
               <Image
-                src="/images/borehole-1.jpg"
-                alt="Borehole drilling operation"
+                src="/images/Osinka Kallaso/2bf70573-4230-4c77-8282-a37f89f29e96.JPG"
+                alt="Water project development"
                 fill
                 className="object-cover"
               />
             </div>
             <div className="relative h-48 bg-gray-200 rounded-lg overflow-hidden">
               <Image
-                src="/images/borehole-2.jpg"
-                alt="Borehole construction progress"
+                src="/images/Osinka Kallaso/3ad53087-816a-4dd5-b6a5-cb02f03ec71f.JPG"
+                alt="Water project progress"
                 fill
                 className="object-cover"
               />
             </div>
             <div className="relative h-48 bg-gray-200 rounded-lg overflow-hidden">
               <Image
-                src="/images/borehole-3.jpg"
-                alt="Borehole infrastructure"
+                src="/images/Osinka Kallaso/3c894237-9648-4c33-bfe3-bbba3a922418.JPG"
+                alt="Water project infrastructure"
                 fill
                 className="object-cover"
               />
             </div>
             <div className="relative h-48 bg-gray-200 rounded-lg overflow-hidden">
               <Image
-                src="/images/borehole-4.jpg"
-                alt="Borehole completion"
+                src="/images/Osinka Kallaso/9c68d72e-39a7-4832-b781-2b2348050175.JPG"
+                alt="Water project completion"
                 fill
                 className="object-cover"
               />
@@ -525,7 +525,7 @@ export default function Home() {
             </div>
             <div className="relative h-80 bg-gray-200 rounded-lg overflow-hidden">
               <Image
-                src="/images/0_1-2.jpg"
+                src="/images/Osinka Kallaso/66d0faea-0153-423d-9f1e-e59cd6b6c4fb.JPG"
                 alt="Onion harvest display"
                 fill
                 className="object-cover"
@@ -548,7 +548,7 @@ export default function Home() {
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
             <div className="relative h-80 bg-gray-200 rounded-lg overflow-hidden">
               <Image
-                src="/images/0_1-3.jpg"
+                src="/images/Osinka Kallaso/79b03dc4-fda1-4b5c-baba-af9ab69ad965.JPG"
                 alt="Farming activity"
                 fill
                 className="object-cover"
@@ -560,7 +560,7 @@ export default function Home() {
             </div>
             <div className="relative h-80 bg-gray-200 rounded-lg overflow-hidden">
               <Image
-                src="/images/0_3-2.jpg"
+                src="/images/Osinka Kallaso/93f6cb54-2506-4675-97d7-7cafac7649bc.JPG"
                 alt="Farming activity"
                 fill
                 className="object-cover"
@@ -572,7 +572,7 @@ export default function Home() {
             </div>
             <div className="relative h-80 bg-gray-200 rounded-lg overflow-hidden">
               <Image
-                src="/images/0_0-1.jpg"
+                src="/images/Osinka Kallaso/147f4684-d379-4c8e-8ca6-0cbb5a229886.JPG"
                 alt="Farming activity"
                 fill
                 className="object-cover"
