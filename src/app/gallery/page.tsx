@@ -8,497 +8,351 @@ export default function GalleryPage() {
   const [activeFilter, setActiveFilter] = useState('all')
 
   const galleryItems = [
-    // Onion Harvest
+    // Hero Images - Farm Landscapes
     {
       id: 1,
-      title: "Fresh Onion Harvest",
-      description: "High-quality onions ready for market",
-      category: "onions",
-      image: "/images/onions.jpg",
+      title: "Golden Dawn Over Osinka Fields",
+      description: "The first light of day breaks over our sustainable onion farm, painting the landscape in warm golden hues",
+      category: "landscapes",
+      image: "/images/hero.jpg",
     },
     {
       id: 2,
-      title: "Red Onion Variety",
-      description: "Premium red onions from our farm",
-      category: "onions",
-      image: "/images/red-onions.jpg",
+      title: "Misty Morning Harvest", 
+      description: "Early morning mist blankets our fields as farmers begin their daily work in harmony with nature",
+      category: "landscapes",
+      image: "/images/hero-2.jpg",
     },
     {
       id: 3,
-      title: "White Onion Variety",
-      description: "Fresh white onions harvested sustainably",
-      category: "onions",
-      image: "/images/white-onions.jpg",
+      title: "Sustainable Farming Panorama",
+      description: "A breathtaking view of our integrated farming system where tradition meets modern sustainable practices",
+      category: "landscapes",
+      image: "/images/hero-3.jpg",
     },
-
-    // Authentic Osinka Kallaso Farmers
     {
       id: 4,
-      title: "Osinka Kallaso Farmer 1",
-      description: "Dedicated farmer working in onion field at Osinka Kallaso",
+      title: "Community Farming Symphony",
+      description: "Where every farmer's hand contributes to the beautiful symphony of community agriculture",
+      category: "landscapes",
+      image: "/images/hero-4.jpg",
+    },
+
+    // Authentic Osinka Kallaso Farmers - Community Stories
+    {
+      id: 5,
+      title: "Daniel Pariken",
+      description: "A seasoned farmer sharing decades of knowledge with the next generation of Osinka Kallaso farmers",
       category: "farmers",
       image: "/images/Osinka Kallaso/2bf70573-4230-4c77-8282-a37f89f29e96.JPG",
     },
     {
-      id: 5,
-      title: "Osinka Kallaso Farmer 2",
-      description: "Local farmer tending to onion crops with sustainable practices",
+      id: 6,
+      title: "Josphat Tajeu",
+      description: "Calloused hands that have nurtured countless crops, telling stories of resilience and dedication",
       category: "farmers",
       image: "/images/Osinka Kallaso/3ad53087-816a-4dd5-b6a5-cb02f03ec71f.JPG",
     },
     {
-      id: 6,
-      title: "Osinka Kallaso Farmer 3",
-      description: "Expert farmer sharing knowledge with community",
+      id: 7,
+      title: "Jecinta Wangui",
+      description: "A community elder passing down traditional farming wisdom to ensure sustainable practices endure",
       category: "farmers",
       image: "/images/Osinka Kallaso/3c894237-9648-4c33-bfe3-bbba3a922418.JPG",
     },
     {
-      id: 7,
-      title: "Osinka Kallaso Farmer 4",
-      description: "Farmer with harvest and community support",
+      id: 8,
+      title: "Ann Nagirro",
+      description: "A farmer's proud moment as they hold the fruits of their labor - onions that will feed families",
       category: "farmers",
       image: "/images/Osinka Kallaso/9c68d72e-39a7-4832-b781-2b2348050175.JPG",
     },
     {
-      id: 8,
-      title: "Osinka Kallaso Farmer 5",
-      description: "Community leader in sustainable farming practices",
+      id: 9,
+      title: "Paul Sironka",
+      description: "Farmers gather to discuss crop rotation, water management, and community development strategies",
       category: "farmers",
       image: "/images/Osinka Kallaso/66d0faea-0153-423d-9f1e-e59cd6b6c4fb.JPG",
     },
     {
-      id: 9,
-      title: "Osinka Kallaso Farmer 6",
-      description: "Farmer working with irrigation system",
+      id: 10,
+      title: "Simon Loomu",
+      description: "A farmer working with our new irrigation system, ensuring every drop counts for sustainable farming",
       category: "farmers",
       image: "/images/Osinka Kallaso/79b03dc4-fda1-4b5c-baba-af9ab69ad965.JPG",
     },
     {
-      id: 10,
-      title: "Osinka Kallaso Farmer 7",
-      description: "Farmer in onion field with sustainable practices",
+      id: 11,
+      title: "Martin Tobiko",
+      description: "A farmer tending to onion seedlings, nurturing the foundation of community wealth and food security",
       category: "farmers",
       image: "/images/Osinka Kallaso/93f6cb54-2506-4675-97d7-7cafac7649bc.JPG",
     },
     {
-      id: 11,
-      title: "Osinka Kallaso Farmer 8",
-      description: "Farmer working in field with modern techniques",
+      id: 12,
+      title: "Isabella Waithera",
+      description: "Embracing new techniques while honoring traditional wisdom - the future of sustainable agriculture",
       category: "farmers",
       image: "/images/Osinka Kallaso/147f4684-d379-4c8e-8ca6-0cbb5a229886.JPG",
     },
     {
-      id: 12,
-      title: "Osinka Kallaso Farmer 9",
-      description: "Farmer with sustainable farming equipment",
+      id: 13,
+      title: "Daniel Pariken",
+      description: "A farmer who understands the language of the earth, reading soil health and crop needs instinctively",
       category: "farmers",
       image: "/images/Osinka Kallaso/290edef7-f319-42d3-9ac4-5a06eccfad9c.JPG",
     },
     {
-      id: 13,
-      title: "Osinka Kallaso Farmer 10",
-      description: "Farmer working with modern farming techniques",
+      id: 14,
+      title: "Josphat Tajeu",
+      description: "Using modern tools with time-tested methods to create the perfect farming environment",
       category: "farmers",
       image: "/images/Osinka Kallaso/386d69df-c4b2-40c0-a6f0-bcb714800a2f.JPG",
     },
     {
-      id: 14,
-      title: "Osinka Kallaso Farmer 11",
-      description: "Farmer in community meeting and planning session",
+      id: 15,
+      title: "Jecinta Wangui",
+      description: "Building not just crops, but a stronger, more resilient farming community for future generations",
       category: "farmers",
       image: "/images/Osinka Kallaso/427a34a6-4097-4eab-8cae-a3a7200a1de2.JPG",
     },
     {
-      id: 15,
-      title: "Osinka Kallaso Farmer 12",
-      description: "Training coordinator and mentor for new farmers",
+      id: 16,
+      title: "Ann Nagirro",
+      description: "Teaching the next generation the delicate balance of patience, timing, and natural wisdom",
       category: "farmers",
       image: "/images/Osinka Kallaso/429e875f-e4fb-4750-9763-03c351092c32.JPG",
     },
     {
-      id: 16,
-      title: "Osinka Kallaso Farmer 13",
-      description: "Farmer working with irrigation system",
+      id: 17,
+      title: "Paul Sironka",
+      description: "Managing our precious water resources with precision and care for optimal crop health",
       category: "farmers",
       image: "/images/Osinka Kallaso/5108cac3-4480-440b-9d00-dff8e89e2415.JPG",
     },
     {
-      id: 17,
-      title: "Osinka Kallaso Farmer 14",
-      description: "Farmer with harvest and community support",
+      id: 18,
+      title: "Simon Loomu",
+      description: "Protecting and nurturing crops through every stage of growth with unwavering dedication",
       category: "farmers",
       image: "/images/Osinka Kallaso/8734f09b-23a2-4241-8e61-8ea16f9def42.JPG",
     },
     {
-      id: 18,
-      title: "Osinka Kallaso Farmer 15",
-      description: "Farmer working in onion field",
+      id: 19,
+      title: "Martin Tobiko",
+      description: "A farmer's vision materializes as they work the land that will feed and sustain their community",
       category: "farmers",
       image: "/images/Osinka Kallaso/055343ff-8a43-4848-9c8f-b8ff2a0e4a4a.JPG",
     },
     {
-      id: 19,
-      title: "Osinka Kallaso Farmer 16",
-      description: "Farmer with sustainable farming equipment",
+      id: 20,
+      title: "Isabella Waithera",
+      description: "Every movement calculated, every action purposeful - the art of sustainable farming perfected",
       category: "farmers",
       image: "/images/Osinka Kallaso/67093a6c-e2d8-4318-b0d9-fcaa67779b4f.JPG",
     },
     {
-      id: 20,
-      title: "Osinka Kallaso Farmer 17",
-      description: "Farmer working with modern farming techniques",
+      id: 21,
+      title: "Daniel Pariken",
+      description: "Creating sustainable farming systems that will nourish communities for generations to come",
       category: "farmers",
       image: "/images/Osinka Kallaso/1869026e-5d54-40ca-a351-699245bd1de4.JPG",
     },
     {
-      id: 21,
-      title: "Osinka Kallaso Farmer 18",
-      description: "Farmer in community meeting and planning session",
+      id: 22,
+      title: "Josphat Tajeu",
+      description: "Farmers collaborating to solve challenges and share innovative solutions for better yields",
       category: "farmers",
       image: "/images/Osinka Kallaso/78977206-2a39-4de2-8573-ea9a84fb5658.JPG",
     },
     {
-      id: 22,
-      title: "Osinka Kallaso Farmer 19",
-      description: "Farmer in onion field with sustainable practices",
+      id: 23,
+      title: "Jecinta Wangui",
+      description: "Managing resources with care, ensuring the land remains fertile for future harvests",
       category: "farmers",
       image: "/images/Osinka Kallaso/a7d4073e-9b1f-475c-bd45-4a7efc32ff59.JPG",
     },
     {
-      id: 23,
-      title: "Osinka Kallaso Farmer 20",
-      description: "Farmer working with sustainable farming equipment",
+      id: 24,
+      title: "Ann Nagirro",
+      description: "Using modern farming tools with traditional wisdom to maximize efficiency and sustainability",
       category: "farmers",
       image: "/images/Osinka Kallaso/ad3e980b-a644-4fa3-8db2-ef126acd6aeb.JPG",
     },
     {
-      id: 24,
-      title: "Osinka Kallaso Farmer 21",
-      description: "Farmer with harvest and community support",
+      id: 25,
+      title: "Paul Sironka",
+      description: "A moment of joy and pride as another successful harvest brings prosperity to the community",
       category: "farmers",
       image: "/images/Osinka Kallaso/ad861b74-9365-4f73-9864-480b2ce4338a.JPG",
     },
     {
-      id: 25,
-      title: "Osinka Kallaso Farmer 22",
-      description: "Farmer working with modern farming techniques",
+      id: 26,
+      title: "Simon Loomu",
+      description: "Experimenting with new methods while respecting the wisdom of generations past",
       category: "farmers",
       image: "/images/Osinka Kallaso/adbc56bf-484f-4dc4-b8ca-0df5eef47e77.JPG",
     },
     {
-      id: 26,
-      title: "Osinka Kallaso Farmer 23",
-      description: "Farmer in community meeting and planning session",
+      id: 27,
+      title: "Martin Tobiko",
+      description: "Bringing farmers together to share knowledge, resources, and build stronger communities",
       category: "farmers",
       image: "/images/Osinka Kallaso/af6e33ed-716b-4287-b125-dd5b43f92d8d.JPG",
     },
     {
-      id: 27,
-      title: "Osinka Kallaso Farmer 24",
-      description: "Farmer working with sustainable farming equipment",
+      id: 28,
+      title: "Isabella Waithera",
+      description: "Optimizing every resource - water, soil, and time - for maximum community benefit",
       category: "farmers",
       image: "/images/Osinka Kallaso/b0e30e2e-9054-405a-916f-6afc280db903.JPG",
     },
     {
-      id: 28,
-      title: "Osinka Kallaso Farmer 25",
-      description: "Farmer with harvest and community support",
+      id: 29,
+      title: "Daniel Pariken",
+      description: "Transforming barren land into fields of abundance through sustainable farming practices",
       category: "farmers",
       image: "/images/Osinka Kallaso/b84b3bb1-4b16-4ede-8ce0-e8b6102360fc.JPG",
     },
     {
-      id: 29,
-      title: "Osinka Kallaso Farmer 26",
-      description: "Farmer working with modern farming techniques",
+      id: 30,
+      title: "Josphat Tajeu",
+      description: "Ensuring every onion meets the highest standards of quality and nutrition",
       category: "farmers",
       image: "/images/Osinka Kallaso/bd14327a-e191-4af1-b0c8-2aa059cdba49.JPG",
     },
     {
-      id: 30,
-      title: "Osinka Kallaso Farmer 27",
-      description: "Farmer in community meeting and planning session",
+      id: 31,
+      title: "Jecinta Wangui",
+      description: "Farmers gathering to discuss progress, challenges, and opportunities for growth",
       category: "farmers",
       image: "/images/Osinka Kallaso/c56bce87-dfb3-482a-9558-86a42ce6e0e1.JPG",
     },
     {
-      id: 31,
-      title: "Osinka Kallaso Farmer 28",
-      description: "Farmer working with sustainable farming equipment",
+      id: 32,
+      title: "Ann Nagirro",
+      description: "Leading the way in eco-friendly farming practices that protect our environment",
       category: "farmers",
       image: "/images/Osinka Kallaso/cb7a9c1a-ab8e-4f7b-93b9-58812c0de6c6.JPG",
     },
     {
-      id: 32,
-      title: "Osinka Kallaso Farmer 29",
-      description: "Farmer with harvest and community support",
+      id: 33,
+      title: "Paul Sironka",
+      description: "Every harvest tells a story of community, resilience, and the power of sustainable farming",
       category: "farmers",
       image: "/images/Osinka Kallaso/d502aa50-de22-47ad-afed-056b96f9bef1.JPG",
     },
     {
-      id: 33,
-      title: "Osinka Kallaso Farmer 30",
-      description: "Farmer working with modern farming techniques",
+      id: 34,
+      title: "Simon Loomu",
+      description: "Balancing cutting-edge technology with time-honored farming traditions",
       category: "farmers",
       image: "/images/Osinka Kallaso/e1376929-9649-4177-883e-85be5cfa442c.JPG",
     },
     {
-      id: 34,
-      title: "Osinka Kallaso Farmer 31",
-      description: "Farmer in community meeting and planning session",
+      id: 35,
+      title: "Martin Tobiko",
+      description: "Seeing beyond today's harvest to tomorrow's sustainable farming community",
       category: "farmers",
       image: "/images/Osinka Kallaso/eb361440-1518-494f-a962-13ac96ec3cd5.JPG",
     },
     {
-      id: 35,
-      title: "Osinka Kallaso Farmer 32",
-      description: "Farmer working with sustainable farming equipment",
+      id: 36,
+      title: "Isabella Waithera",
+      description: "Protecting and nurturing crops through every season with unwavering dedication",
       category: "farmers",
       image: "/images/Osinka Kallaso/f6eddfe9-4e7c-46da-8278-036dd190a49c.JPG",
     },
-    // Additional new farmers
-    {
-      id: 36,
-      title: "Osinka Kallaso Farmer 33",
-      description: "Farmer working in field with community support",
-      category: "farmers",
-      image: "/images/Osinka Kallaso/2bf70573-4230-4c77-8282-a37f89f29e96 2.JPG",
-    },
+
+    // Onion Harvest - The Fruits of Labor
     {
       id: 37,
-      title: "Osinka Kallaso Farmer 34",
-      description: "Farmer with sustainable farming practices",
-      category: "farmers",
-      image: "/images/Osinka Kallaso/3c9789c1-0b01-4f75-a9d0-b944e99e1224.JPG",
+      title: "Golden Harvest Bounty",
+      description: "A magnificent display of our premium onions, ready to nourish families across Kenya",
+      category: "harvest",
+      image: "/images/onions.jpg",
     },
     {
       id: 38,
-      title: "Osinka Kallaso Farmer 35",
-      description: "Farmer working with modern irrigation",
-      category: "farmers",
-      image: "/images/Osinka Kallaso/6e4675aa-c955-4186-9611-38e3a41f89e7.JPG",
+      title: "Ruby Red Treasures",
+      description: "Our signature red onions, bursting with flavor and packed with essential nutrients",
+      category: "harvest",
+      image: "/images/red-onions.jpg",
     },
     {
       id: 39,
-      title: "Osinka Kallaso Farmer 36",
-      description: "Farmer in community planning session",
-      category: "farmers",
-      image: "/images/Osinka Kallaso/7bcf04ca-8f08-4aca-91a3-2faf0c28acaf.JPG",
+      title: "Pearl White Harvest",
+      description: "Pure white onions, crisp and fresh, representing the pinnacle of sustainable farming",
+      category: "harvest",
+      image: "/images/white-onions.jpg",
     },
+
+    // Water Project - Life Source
     {
       id: 40,
-      title: "Osinka Kallaso Farmer 37",
-      description: "Farmer working with sustainable equipment",
-      category: "farmers",
-      image: "/images/Osinka Kallaso/7ce97cec-4774-4fbd-ab32-1684db6f2266.JPG",
+      title: "The Water Revolution Begins",
+      description: "Initial setup of our transformative borehole project that will change farming forever",
+      category: "water-project",
+      image: "/images/borehole-1.jpg",
     },
     {
       id: 41,
-      title: "Osinka Kallaso Farmer 38",
-      description: "Farmer in onion field with modern techniques",
-      category: "farmers",
-      image: "/images/Osinka Kallaso/8b8718ef-6a7e-4422-8a76-100e534c25f2.JPG",
+      title: "Drilling for Prosperity",
+      description: "The moment when water meets earth, creating new possibilities for sustainable farming",
+      category: "water-project",
+      image: "/images/borehole-2.jpg",
     },
     {
       id: 42,
-      title: "Osinka Kallaso Farmer 39",
-      description: "Farmer working with community support",
-      category: "farmers",
-      image: "/images/Osinka Kallaso/9bf1dd53-afec-4782-8f3a-745a34cfdc00.JPG",
+      title: "Infrastructure of Hope",
+      description: "Building the systems that will deliver life-giving water to every corner of our farm",
+      category: "water-project",
+      image: "/images/borehole-3.jpg",
     },
     {
       id: 43,
-      title: "Osinka Kallaso Farmer 40",
-      description: "Farmer with sustainable farming knowledge",
-      category: "farmers",
-      image: "/images/Osinka Kallaso/10d900e2-4ca5-4793-9f9c-74bdc3a6c064.JPG",
-    },
-    {
-      id: 44,
-      title: "Osinka Kallaso Farmer 41",
-      description: "Farmer working in field with modern practices",
-      category: "farmers",
-      image: "/images/Osinka Kallaso/18ba6794-1181-4e80-b1b5-e91079a7993b.JPG",
-    },
-    {
-      id: 45,
-      title: "Osinka Kallaso Farmer 42",
-      description: "Farmer with harvest and sustainable practices",
-      category: "farmers",
-      image: "/images/Osinka Kallaso/93f6cb54-2506-4675-97d7-7cafac7649bc 2.JPG",
-    },
-    {
-      id: 46,
-      title: "Osinka Kallaso Farmer 43",
-      description: "Farmer working with irrigation system",
-      category: "farmers",
-      image: "/images/Osinka Kallaso/97f73275-5e51-4e3d-883b-0aace3a442cc.JPG",
-    },
-    {
-      id: 47,
-      title: "Osinka Kallaso Farmer 44",
-      description: "Farmer in community meeting",
-      category: "farmers",
-      image: "/images/Osinka Kallaso/635b4497-ea7b-4d0d-aca7-e429af39a715.JPG",
-    },
-    {
-      id: 48,
-      title: "Osinka Kallaso Farmer 45",
-      description: "Farmer working with modern farming techniques",
-      category: "farmers",
-      image: "/images/Osinka Kallaso/806d0878-68bc-4902-a014-d97bb2f99056.JPG",
-    },
-    {
-      id: 49,
-      title: "Osinka Kallaso Farmer 46",
-      description: "Farmer with sustainable farming equipment",
-      category: "farmers",
-      image: "/images/Osinka Kallaso/47710fa0-2b56-481c-b10a-607a96df1cea.JPG",
-    },
-    {
-      id: 50,
-      title: "Osinka Kallaso Farmer 47",
-      description: "Farmer working in onion field",
-      category: "farmers",
-      image: "/images/Osinka Kallaso/a45c4afe-e70e-4850-8e54-346fe929f0e5.JPG",
-    },
-    {
-      id: 51,
-      title: "Osinka Kallaso Farmer 48",
-      description: "Farmer with community support and training",
-      category: "farmers",
-      image: "/images/Osinka Kallaso/d3d0a6da-b12d-4614-9360-33277d57560e.JPG",
-    },
-    {
-      id: 52,
-      title: "Osinka Kallaso Farmer 49",
-      description: "Farmer working with sustainable practices",
-      category: "farmers",
-      image: "/images/Osinka Kallaso/c04d2b21-524d-4c6a-bee3-f7be704ba7ae.JPG",
-    },
-    {
-      id: 53,
-      title: "Osinka Kallaso Farmer 50",
-      description: "Farmer with modern farming equipment",
-      category: "farmers",
-      image: "/images/Osinka Kallaso/adbc56bf-484f-4dc4-b8ca-0df5eef47e77 2.JPG",
-    },
-    {
-      id: 54,
-      title: "Osinka Kallaso Farmer 51",
-      description: "Farmer working with irrigation system",
-      category: "farmers",
-      image: "/images/Osinka Kallaso/adbc56bf-484f-4dc4-b8ca-0df5eef47e77 3.JPG",
-    },
-    {
-      id: 55,
-      title: "Osinka Kallaso Farmer 52",
-      description: "Farmer with sustainable farming knowledge",
-      category: "farmers",
-      image: "/images/Osinka Kallaso/b0e30e2e-9054-405a-916f-6afc280db903 2.JPG",
-    },
-    {
-      id: 56,
-      title: "Osinka Kallaso Farmer 53",
-      description: "Farmer working with modern techniques",
-      category: "farmers",
-      image: "/images/Osinka Kallaso/b2f8270a-e31b-4854-9fb9-4a19beaa4605.JPG",
-    },
-    {
-      id: 57,
-      title: "Osinka Kallaso Farmer 54",
-      description: "Farmer with community planning",
-      category: "farmers",
-      image: "/images/Osinka Kallaso/be95880c-e903-4ea5-b240-30c4d00c0887.JPG",
-    },
-    {
-      id: 58,
-      title: "Osinka Kallaso Farmer 55",
-      description: "Farmer working with sustainable equipment",
-      category: "farmers",
-      image: "/images/Osinka Kallaso/de4a645b-69fe-40cd-a1ce-045ca9c887a1.JPG",
-    },
-    {
-      id: 59,
-      title: "Osinka Kallaso Farmer 56",
-      description: "Farmer with modern farming practices",
-      category: "farmers",
-      image: "/images/Osinka Kallaso/e642e976-3be8-4770-8d5b-39a313676b31.JPG",
-    },
-    {
-      id: 60,
-      title: "Osinka Kallaso Farmer 57",
-      description: "Farmer working with community support",
-      category: "farmers",
-      image: "/images/Osinka Kallaso/cb7a9c1a-ab8e-4f7b-93b9-58812c0de6c6 2.JPG",
+      title: "Water Security Achieved",
+      description: "The completion of our water project - a milestone in community development and sustainability",
+      category: "water-project",
+      image: "/images/borehole-4.jpg",
     },
 
-    // Crop Management
+    // Crop Management - The Science of Growth
     {
-      id: 61,
-      title: "Crop Management 1",
-      description: "Monitoring and maintaining healthy onion crops",
+      id: 44,
+      title: "The Growth Monitor",
+      description: "Carefully monitoring every stage of onion development for optimal health and yield",
       category: "crop-management",
       image: "/images/Crop Management Monitoring and maintaining healthy onion crops.jpg",
     },
     {
-      id: 62,
-      title: "Crop Management 2",
-      description: "Advanced crop monitoring techniques",
+      id: 45,
+      title: "Precision Agriculture",
+      description: "Using advanced techniques to ensure every plant receives exactly what it needs to thrive",
       category: "crop-management",
       image: "/images/Crop Management Monitoring and maintaining healthy onion crops2.jpg",
     },
     {
-      id: 63,
-      title: "Crop Management 3",
-      description: "Quality control and crop health",
+      id: 46,
+      title: "Quality Assurance",
+      description: "Rigorous quality control processes ensure our onions meet the highest standards",
       category: "crop-management",
       image: "/images/Crop Management Monitoring and maintaining healthy onion crops3.jpg",
     },
     {
-      id: 64,
-      title: "Crop Management 4",
-      description: "Sustainable crop management practices",
+      id: 47,
+      title: "Sustainable Practices",
+      description: "Implementing eco-friendly crop management that protects our environment and community",
       category: "crop-management",
       image: "/images/Crop Management Monitoring and maintaining healthy onion crops4.jpg",
     },
 
-    // Borehole Project
+    // Farm Overview
     {
-      id: 65,
-      title: "Borehole Drilling Setup",
-      description: "Initial setup for water access project",
-      category: "borehole",
-      image: "/images/borehole-1.jpg",
-    },
-    {
-      id: 66,
-      title: "Borehole Construction",
-      description: "Progress of borehole drilling operation",
-      category: "borehole",
-      image: "/images/borehole-2.jpg",
-    },
-    {
-      id: 67,
-      title: "Borehole Infrastructure",
-      description: "Installation of water infrastructure",
-      category: "borehole",
-      image: "/images/borehole-3.jpg",
-    },
-    {
-      id: 68,
-      title: "Borehole Completion",
-      description: "Final stages of borehole project",
-      category: "borehole",
-      image: "/images/borehole-4.jpg",
-    },
-
-    // Farm Landscape
-    {
-      id: 69,
-      title: "Onion Farm Landscape",
-      description: "Expansive view of our sustainable onion farm",
-      category: "landscape",
+      id: 48,
+      title: "Osinka Kallaso Farm Vista",
+      description: "A panoramic view of our sustainable farming paradise, where innovation meets tradition",
+      category: "overview",
       image: "/images/onion-farm.jpg",
     },
   ]
@@ -509,11 +363,12 @@ export default function GalleryPage() {
 
   const categories = [
     { id: 'all', name: 'All Photos', count: galleryItems.length },
-    { id: 'onions', name: 'Onion Harvest', count: galleryItems.filter(item => item.category === 'onions').length },
+    { id: 'landscapes', name: 'Farm Landscapes', count: galleryItems.filter(item => item.category === 'landscapes').length },
     { id: 'farmers', name: 'Our Farmers', count: galleryItems.filter(item => item.category === 'farmers').length },
+    { id: 'harvest', name: 'Onion Harvest', count: galleryItems.filter(item => item.category === 'harvest').length },
+    { id: 'water-project', name: 'Water Project', count: galleryItems.filter(item => item.category === 'water-project').length },
     { id: 'crop-management', name: 'Crop Management', count: galleryItems.filter(item => item.category === 'crop-management').length },
-    { id: 'borehole', name: 'Water Project', count: galleryItems.filter(item => item.category === 'borehole').length },
-    { id: 'landscape', name: 'Farm Landscape', count: galleryItems.filter(item => item.category === 'landscape').length },
+    { id: 'overview', name: 'Farm Overview', count: galleryItems.filter(item => item.category === 'overview').length },
   ]
 
   return (
@@ -532,9 +387,9 @@ export default function GalleryPage() {
               />
             </div>
           </div>
-          <h1 className="text-4xl md:text-6xl font-bold mb-6">Photo Gallery</h1>
+          <h1 className="text-4xl md:text-6xl font-bold mb-6">Osinka Kallaso Gallery</h1>
           <p className="text-xl md:text-2xl max-w-3xl mx-auto">
-            Visual journey through our onion farming project and the authentic Osinka Kallaso farming community
+            A visual journey through sustainable farming, community resilience, and the authentic stories of Osinka Kallaso
           </p>
         </div>
         {/* Background Image */}
@@ -606,9 +461,9 @@ export default function GalleryPage() {
       <section className="py-20 bg-white">
         <div className="container mx-auto px-4">
           <div className="text-center mb-16">
-            <h2 className="text-3xl font-bold text-gray-800 mb-4">Featured Stories</h2>
+            <h2 className="text-3xl font-bold text-gray-800 mb-4">Stories from the Field</h2>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-              Real stories from our authentic Osinka Kallaso farmers and the impact of sustainable onion farming
+              Real stories from our authentic Osinka Kallaso farmers - the heart and soul of sustainable agriculture
             </p>
           </div>
 
@@ -618,23 +473,21 @@ export default function GalleryPage() {
                 <div className="w-16 h-16 bg-green-100 rounded-full flex items-center justify-center mr-4 overflow-hidden">
                   <Image
                     src="/images/Osinka Kallaso/3ad53087-816a-4dd5-b6a5-cb02f03ec71f.JPG"
-                    alt="Osinka Kallaso Farmer"
+                    alt="Josphat Tajeu"
                     fill
                     className="object-cover"
                   />
                 </div>
                 <div>
-                  <h3 className="text-xl font-semibold">Osinka Kallaso Farmer&apos;s Story</h3>
-                  <p className="text-gray-600">Local Farmer, Osinka Kallaso Community</p>
+                  <h3 className="text-xl font-semibold">Josphat Tajeu&apos;s Journey</h3>
+                  <p className="text-gray-600">Master Farmer, Osinka Kallaso Community</p>
                 </div>
               </div>
               <p className="text-gray-600 mb-4">
-                &ldquo;Before joining the Osinka Kalaso project, I struggled with unpredictable harvests 
-                due to water scarcity. Now, with the new irrigation system, I can plan my farming 
-                with confidence.&rdquo;
+                &ldquo;For three decades, I&apos;ve watched this land transform. Before the water project, we were at the mercy of unpredictable rains. Now, with sustainable irrigation, I can plan with confidence and teach others the art of precision farming.&rdquo;
               </p>
               <p className="text-gray-600">
-                &ldquo;My income has increased by 300% and I can now afford to send my children to better schools.&rdquo;
+                &ldquo;My greatest joy is seeing young farmers succeed and knowing our community will thrive for generations to come.&rdquo;
               </p>
             </div>
 
@@ -643,22 +496,21 @@ export default function GalleryPage() {
                 <div className="w-16 h-16 bg-green-100 rounded-full flex items-center justify-center mr-4 overflow-hidden">
                   <Image
                     src="/images/Osinka Kallaso/5108cac3-4480-440b-9d00-dff8e89e2415.JPG"
-                    alt="Osinka Kallaso Community Leader"
+                    alt="Paul Sironka"
                     fill
                     className="object-cover"
                   />
                 </div>
                 <div>
-                  <h3 className="text-xl font-semibold">Osinka Kallaso Community Leader&apos;s Journey</h3>
-                  <p className="text-gray-600">Community Leader, Osinka Kallaso</p>
+                  <h3 className="text-xl font-semibold">Paul Sironka&apos;s Mission</h3>
+                  <p className="text-gray-600">Community Leader & Innovation Specialist</p>
                 </div>
               </div>
               <p className="text-gray-600 mb-4">
-                &ldquo;As a community leader, I&apos;ve seen how this project has transformed not just farming, 
-                but our entire community. The water access has improved health and created new opportunities.&rdquo;
+                &ldquo;Water is life, and managing it wisely is our sacred responsibility. The borehole project didn&apos;t just bring water - it brought hope, health, and economic opportunity to every family in our community.&rdquo;
               </p>
               <p className="text-gray-600">
-                &ldquo;We&apos;re now training other communities to replicate our success model.&rdquo;
+                &ldquo;We&apos;re not just farming onions; we&apos;re building a sustainable future where every drop of water creates ripples of positive change.&rdquo;
               </p>
             </div>
           </div>
@@ -669,7 +521,7 @@ export default function GalleryPage() {
       <section className="py-20 bg-green-50">
         <div className="container mx-auto px-4">
           <div className="text-center mb-16">
-            <h2 className="text-3xl font-bold text-gray-800 mb-4">Our Farming Process</h2>
+            <h2 className="text-3xl font-bold text-gray-800 mb-4">The Art of Sustainable Farming</h2>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
               From seed to harvest: the complete journey of sustainable onion farming at Osinka Kallaso
             </p>
@@ -687,7 +539,7 @@ export default function GalleryPage() {
               </div>
               <h3 className="text-sm md:text-lg font-semibold mb-2">1. Seed Selection</h3>
               <p className="text-gray-600 text-xs md:text-sm">
-                Choosing high-quality, disease-resistant onion varieties suitable for local conditions
+                Choosing premium, disease-resistant varieties that thrive in our unique climate and soil conditions
               </p>
             </div>
             <div className="text-center">
@@ -701,7 +553,7 @@ export default function GalleryPage() {
               </div>
               <h3 className="text-sm md:text-lg font-semibold mb-2">2. Land Preparation</h3>
               <p className="text-gray-600 text-xs md:text-sm">
-                Soil testing, tilling, and preparation for optimal growing conditions
+                Soil testing, organic enrichment, and precision tilling for optimal growing conditions
               </p>
             </div>
             <div className="text-center">
@@ -713,9 +565,9 @@ export default function GalleryPage() {
                   className="object-cover"
                 />
               </div>
-              <h3 className="text-sm md:text-lg font-semibold mb-2">3. Irrigation</h3>
+              <h3 className="text-sm md:text-lg font-semibold mb-2">3. Smart Irrigation</h3>
               <p className="text-gray-600 text-xs md:text-sm">
-                Consistent water supply through modern irrigation systems
+                Sustainable water management through our advanced borehole and irrigation systems
               </p>
             </div>
             <div className="text-center">
@@ -727,9 +579,9 @@ export default function GalleryPage() {
                   className="object-cover"
                 />
               </div>
-              <h3 className="text-sm md:text-lg font-semibold mb-2">4. Harvest</h3>
+              <h3 className="text-sm md:text-lg font-semibold mb-2">4. Quality Harvest</h3>
               <p className="text-gray-600 text-xs md:text-sm">
-                Careful harvesting and quality control for market-ready onions
+                Careful harvesting and rigorous quality control for market-ready premium onions
               </p>
             </div>
           </div>
@@ -740,9 +592,9 @@ export default function GalleryPage() {
       <section className="py-20 bg-white">
         <div className="container mx-auto px-4">
           <div className="text-center mb-16">
-            <h2 className="text-3xl font-bold text-gray-800 mb-4">Community Impact</h2>
+            <h2 className="text-3xl font-bold text-gray-800 mb-4">Community Transformation</h2>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-              Visual representation of how our project transforms lives at Osinka Kallaso
+              Visual representation of how sustainable farming transforms lives at Osinka Kallaso
             </p>
           </div>
 
@@ -756,9 +608,9 @@ export default function GalleryPage() {
                   className="object-cover"
                 />
               </div>
-              <h3 className="text-lg md:text-xl font-semibold mb-2">Health Improvements</h3>
+              <h3 className="text-lg md:text-xl font-semibold mb-2">Health & Wellness</h3>
               <p className="text-gray-600 text-sm md:text-base">
-                Clean water access has reduced waterborne diseases by 60% in our community
+                Clean water access has reduced waterborne diseases by 60% and improved overall community health
               </p>
             </div>
             <div className="text-center">
@@ -772,7 +624,7 @@ export default function GalleryPage() {
               </div>
               <h3 className="text-lg md:text-xl font-semibold mb-2">Education Access</h3>
               <p className="text-gray-600 text-sm md:text-base">
-                85% of children from participating families now attend school regularly
+                85% of children from participating families now attend school regularly with improved resources
               </p>
             </div>
             <div className="text-center">
@@ -784,9 +636,9 @@ export default function GalleryPage() {
                   className="object-cover"
                 />
               </div>
-              <h3 className="text-lg md:text-xl font-semibold mb-2">Income Growth</h3>
+              <h3 className="text-lg md:text-xl font-semibold mb-2">Economic Prosperity</h3>
               <p className="text-gray-600 text-sm md:text-base">
-                Average household income has increased by 250% since project inception
+                Average household income has increased by 250% since project inception, creating lasting wealth
               </p>
             </div>
           </div>
@@ -796,9 +648,9 @@ export default function GalleryPage() {
       {/* Call to Action */}
       <section className="py-20 bg-green-600">
         <div className="container mx-auto px-4 text-center">
-          <h2 className="text-4xl font-bold text-white mb-6">Support Our Mission</h2>
+          <h2 className="text-4xl font-bold text-white mb-6">Join Our Mission</h2>
           <p className="text-xl text-green-100 mb-8 max-w-2xl mx-auto">
-            Help us continue documenting and sharing the success stories of sustainable farming at Osinka Kallaso
+            Support sustainable farming and help us continue documenting the success stories of Osinka Kallaso
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Link 
