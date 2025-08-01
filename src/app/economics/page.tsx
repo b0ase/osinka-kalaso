@@ -1,5 +1,5 @@
-import Link from 'apos;next/link'apos;
-import Image from 'apos;next/image'apos;
+import Link from 'next/link'
+import Image from 'next/image'
 
 export default function EconomicsPage() {
   return (
@@ -394,7 +394,7 @@ export default function EconomicsPage() {
                   className="object-cover"
                 />
               </div>
-              <h3 className="text-lg font-semibold text-center mb-2">John'apos;s Success</h3>
+              <h3 className="text-lg font-semibold text-center mb-2">John&apos;s Success</h3>
               <p className="text-gray-600 text-sm text-center">
                 &ldquo;My income increased from KES 15,000 to KES 45,000 per month. 
                 I can now afford better education for my children.&rdquo;
@@ -409,10 +409,10 @@ export default function EconomicsPage() {
                   className="object-cover"
                 />
               </div>
-              <h3 className="text-lg font-semibold text-center mb-2">Sarah'apos;s Journey</h3>
+              <h3 className="text-lg font-semibold text-center mb-2">Sarah&apos;s Journey</h3>
               <p className="text-gray-600 text-sm text-center">
                 &ldquo;The sustainable farming techniques have transformed my farm. 
-                I'apos;m now a mentor to other farmers in the community.&rdquo;
+                I&apos;m now a mentor to other farmers in the community.&rdquo;
               </p>
             </div>
             <div className="bg-white p-6 rounded-lg shadow-lg">
@@ -424,7 +424,7 @@ export default function EconomicsPage() {
                   className="object-cover"
                 />
               </div>
-              <h3 className="text-lg font-semibold text-center mb-2">David'apos;s Growth</h3>
+              <h3 className="text-lg font-semibold text-center mb-2">David&apos;s Growth</h3>
               <p className="text-gray-600 text-sm text-center">
                 &ldquo;From struggling to make ends meet to becoming a successful 
                 onion farmer with a stable income.&rdquo;
@@ -473,6 +473,7 @@ export default function EconomicsPage() {
                 fill
                 className="object-cover"
               />
+            </div>
           </div>
 
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
@@ -484,46 +485,45 @@ export default function EconomicsPage() {
                 long-term soil health and productivity.
               </p>
             </div>
-              <div className="bg-white p-8 rounded-lg shadow-lg border border-gray-200">
-                <div className="text-4xl mb-4">👨‍👩‍👧‍👦</div>
-                <h3 className="text-xl font-semibold mb-4 text-gray-800">Generational Wealth</h3>
-                <p className="text-gray-700 leading-relaxed">
-                  Stable income enables families to invest in education, healthcare, and 
-                  future business opportunities.
-                </p>
-              </div>
-              <div className="bg-white p-8 rounded-lg shadow-lg border border-gray-200">
-                <div className="text-4xl mb-4">🏘️</div>
-                <h3 className="text-xl font-semibold mb-4 text-gray-800">Community Development</h3>
-                <p className="text-gray-700 leading-relaxed">
-                  Increased economic activity attracts infrastructure development, 
-                  schools, and healthcare facilities.
-                </p>
-              </div>
-              <div className="bg-white p-8 rounded-lg shadow-lg border border-gray-200">
-                <div className="text-4xl mb-4">🌍</div>
-                <h3 className="text-xl font-semibold mb-4 text-gray-800">Environmental Benefits</h3>
-                <p className="text-gray-700 leading-relaxed">
-                  Sustainable farming practices protect local ecosystems and 
-                  contribute to climate change mitigation.
-                </p>
-              </div>
-              <div className="bg-white p-8 rounded-lg shadow-lg border border-gray-200">
-                <div className="text-4xl mb-4">📚</div>
-                <h3 className="text-xl font-semibold mb-4 text-gray-800">Knowledge Transfer</h3>
-                <p className="text-gray-700 leading-relaxed">
-                  Training programs create skilled agricultural workers and 
-                  enable knowledge sharing across communities.
-                </p>
-              </div>
-              <div className="bg-white p-8 rounded-lg shadow-lg border border-gray-200">
-                <div className="text-4xl mb-4">🤝</div>
-                <h3 className="text-xl font-semibold mb-4 text-gray-800">Market Integration</h3>
-                <p className="text-gray-700 leading-relaxed">
-                  Connection to national and international markets creates 
-                  opportunities for scaling and diversification.
-                </p>
-              </div>
+            <div className="bg-white p-8 rounded-lg shadow-lg border border-gray-200">
+              <div className="text-4xl mb-4">👨‍👩‍👧‍👦</div>
+              <h3 className="text-xl font-semibold mb-4 text-gray-800">Generational Wealth</h3>
+              <p className="text-gray-700 leading-relaxed">
+                Stable income enables families to invest in education, healthcare, and 
+                future business opportunities.
+              </p>
+            </div>
+            <div className="bg-white p-8 rounded-lg shadow-lg border border-gray-200">
+              <div className="text-4xl mb-4">🏘️</div>
+              <h3 className="text-xl font-semibold mb-4 text-gray-800">Community Development</h3>
+              <p className="text-gray-700 leading-relaxed">
+                Increased economic activity attracts infrastructure development, 
+                schools, and healthcare facilities.
+              </p>
+            </div>
+            <div className="bg-white p-8 rounded-lg shadow-lg border border-gray-200">
+              <div className="text-4xl mb-4">🌍</div>
+              <h3 className="text-xl font-semibold mb-4 text-gray-800">Environmental Benefits</h3>
+              <p className="text-gray-700 leading-relaxed">
+                Sustainable farming practices protect local ecosystems and 
+                contribute to climate change mitigation.
+              </p>
+            </div>
+            <div className="bg-white p-8 rounded-lg shadow-lg border border-gray-200">
+              <div className="text-4xl mb-4">📚</div>
+              <h3 className="text-xl font-semibold mb-4 text-gray-800">Knowledge Transfer</h3>
+              <p className="text-gray-700 leading-relaxed">
+                Training programs create skilled agricultural workers and 
+                enable knowledge sharing across communities.
+              </p>
+            </div>
+            <div className="bg-white p-8 rounded-lg shadow-lg border border-gray-200">
+              <div className="text-4xl mb-4">🤝</div>
+              <h3 className="text-xl font-semibold mb-4 text-gray-800">Market Integration</h3>
+              <p className="text-gray-700 leading-relaxed">
+                Connection to national and international markets creates 
+                opportunities for scaling and diversification.
+              </p>
             </div>
           </div>
         </div>
