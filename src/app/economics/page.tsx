@@ -29,7 +29,7 @@ export default function EconomicsPage() {
         <div className="container mx-auto px-4">
           <div className="text-center mb-16">
             <h2 className="text-3xl font-bold text-gray-800 mb-4">Market Analysis</h2>
-            <p className="text-xl text-gray-600 max-w-3xl mx-auto">
+            <p className="text-xl text-black max-w-3xl mx-auto">
               Comprehensive analysis of the Kenyan onion market and its potential for sustainable growth
             </p>
           </div>
@@ -108,7 +108,7 @@ export default function EconomicsPage() {
         <div className="container mx-auto px-4">
           <div className="text-center mb-16">
             <h2 className="text-3xl font-bold text-gray-800 mb-4">Sustainable Farming in Action</h2>
-            <p className="text-xl text-gray-600 max-w-3xl mx-auto">
+            <p className="text-xl text-black max-w-3xl mx-auto">
               See how our farmers are implementing sustainable practices for profitable onion cultivation
             </p>
           </div>
@@ -132,7 +132,7 @@ export default function EconomicsPage() {
         <div className="container mx-auto px-4">
           <div className="text-center mb-16">
             <h2 className="text-3xl font-bold text-gray-800 mb-4">Profitability Analysis</h2>
-            <p className="text-xl text-gray-600 max-w-3xl mx-auto">
+            <p className="text-xl text-black max-w-3xl mx-auto">
               Detailed breakdown of costs, revenues, and profit margins for onion farming
             </p>
           </div>
@@ -266,7 +266,7 @@ export default function EconomicsPage() {
         <div className="container mx-auto px-4">
           <div className="text-center mb-16">
             <h2 className="text-3xl font-bold text-gray-800 mb-4">Economic Impact</h2>
-            <p className="text-xl text-gray-600 max-w-3xl mx-auto">
+            <p className="text-xl text-black max-w-3xl mx-auto">
               How the Osinka Kalaso project will transform the local economy and create lasting prosperity
             </p>
           </div>
@@ -311,7 +311,7 @@ export default function EconomicsPage() {
         <div className="container mx-auto px-4">
           <div className="text-center mb-16">
             <h2 className="text-3xl font-bold text-gray-800 mb-4">Investment Comparison</h2>
-            <p className="text-xl text-gray-600 max-w-3xl mx-auto">
+            <p className="text-xl text-black max-w-3xl mx-auto">
               How onion farming compares to other agricultural investments in Kenya
             </p>
           </div>
@@ -378,7 +378,7 @@ export default function EconomicsPage() {
         <div className="container mx-auto px-4">
           <div className="text-center mb-16">
             <h2 className="text-3xl font-bold text-gray-800 mb-4">Sustainability & Long-term Benefits</h2>
-            <p className="text-xl text-gray-600 max-w-3xl mx-auto">
+            <p className="text-xl text-black max-w-3xl mx-auto">
               How sustainable onion farming creates lasting economic value for the community
             </p>
           </div>
@@ -395,7 +395,7 @@ export default function EconomicsPage() {
                 />
               </div>
               <h3 className="text-lg font-semibold text-center mb-2">John&apos;s Success</h3>
-              <p className="text-gray-600 text-sm text-center">
+              <p className="text-black text-sm text-center">
                 &ldquo;My income increased from KES 15,000 to KES 45,000 per month. 
                 I can now afford better education for my children.&rdquo;
               </p>
@@ -410,7 +410,7 @@ export default function EconomicsPage() {
                 />
               </div>
               <h3 className="text-lg font-semibold text-center mb-2">Sarah&apos;s Journey</h3>
-              <p className="text-gray-600 text-sm text-center">
+              <p className="text-black text-sm text-center">
                 &ldquo;The sustainable farming techniques have transformed my farm. 
                 I&apos;m now a mentor to other farmers in the community.&rdquo;
               </p>
@@ -425,7 +425,7 @@ export default function EconomicsPage() {
                 />
               </div>
               <h3 className="text-lg font-semibold text-center mb-2">David&apos;s Growth</h3>
-              <p className="text-gray-600 text-sm text-center">
+              <p className="text-black text-sm text-center">
                 &ldquo;From struggling to make ends meet to becoming a successful 
                 onion farmer with a stable income.&rdquo;
               </p>
@@ -443,7 +443,7 @@ export default function EconomicsPage() {
                   </div>
                   <div>
                     <h4 className="font-semibold text-gray-800">50+ Families</h4>
-                    <p className="text-gray-600">Directly benefiting from the project</p>
+                    <p className="text-black">Directly benefiting from the project</p>
                   </div>
                 </div>
                 <div className="flex items-center space-x-4">
@@ -452,7 +452,7 @@ export default function EconomicsPage() {
                   </div>
                   <div>
                     <h4 className="font-semibold text-gray-800">KES 2.5M+</h4>
-                    <p className="text-gray-600">Total annual income generated</p>
+                    <p className="text-black">Total annual income generated</p>
                   </div>
                 </div>
                 <div className="flex items-center space-x-4">
@@ -461,7 +461,7 @@ export default function EconomicsPage() {
                   </div>
                   <div>
                     <h4 className="font-semibold text-gray-800">100+ Children</h4>
-                    <p className="text-gray-600">Now have access to better education</p>
+                    <p className="text-black">Now have access to better education</p>
                   </div>
                 </div>
               </div>

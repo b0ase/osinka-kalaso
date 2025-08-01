@@ -41,17 +41,17 @@ export default function AboutPage() {
           <div className="grid lg:grid-cols-2 gap-12 items-center">
             <div>
               <h2 className="text-3xl font-bold text-gray-800 mb-6">Our Story</h2>
-              <p className="text-gray-600 mb-6 leading-relaxed">
+              <p className="text-black mb-6 leading-relaxed">
                 Osinka Kalaso was born from a vision to address the critical challenges facing 
                 Kenyan farmers: unreliable water access, limited market opportunities, and 
                 unsustainable farming practices.
               </p>
-              <p className="text-gray-600 mb-6 leading-relaxed">
+              <p className="text-black mb-6 leading-relaxed">
                 Founded in 2023, our project began with a simple observation: the potential for 
                 high-quality onion cultivation in the fertile soils of Kenya, combined with the 
                 urgent need for sustainable water solutions.
               </p>
-              <p className="text-gray-600 leading-relaxed">
+              <p className="text-black leading-relaxed">
                 Today, we work with over 50 local farmers, providing them with the knowledge, 
                 resources, and infrastructure needed to build prosperous, sustainable livelihoods.
               </p>
@@ -74,7 +74,7 @@ export default function AboutPage() {
         <div className="container mx-auto px-4">
           <div className="text-center mb-16">
             <h2 className="text-3xl font-bold text-gray-800 mb-4">Mission & Values</h2>
-            <p className="text-xl text-gray-600 max-w-3xl mx-auto leading-relaxed">
+            <p className="text-xl text-black max-w-3xl mx-auto leading-relaxed">
               Our core principles guide everything we do at Osinka Kalaso
             </p>
           </div>
@@ -83,7 +83,7 @@ export default function AboutPage() {
             <div className="bg-white p-8 rounded-lg shadow-lg">
               <div className="text-4xl mb-4">🎯</div>
               <h3 className="text-xl font-semibold mb-4 text-gray-800">Our Mission</h3>
-              <p className="text-gray-600 leading-relaxed">
+              <p className="text-black leading-relaxed">
                 To empower Kenyan farmers through sustainable onion cultivation, providing 
                 reliable water access and creating lasting economic opportunities for local communities.
               </p>
@@ -91,7 +91,7 @@ export default function AboutPage() {
             <div className="bg-white p-8 rounded-lg shadow-lg">
               <div className="text-4xl mb-4">👁️</div>
               <h3 className="text-xl font-semibold mb-4 text-gray-800">Our Vision</h3>
-              <p className="text-gray-600 leading-relaxed">
+              <p className="text-black leading-relaxed">
                 A Kenya where every farmer has access to sustainable water resources and 
                 the knowledge to cultivate profitable, environmentally-friendly crops.
               </p>
@@ -99,7 +99,7 @@ export default function AboutPage() {
             <div className="bg-white p-8 rounded-lg shadow-lg">
               <div className="text-4xl mb-4">💚</div>
               <h3 className="text-xl font-semibold mb-4 text-gray-800">Our Values</h3>
-              <p className="text-gray-600 leading-relaxed">
+              <p className="text-black leading-relaxed">
                 Sustainability, community empowerment, innovation, and transparency guide 
                 our approach to agricultural development and community transformation.
               </p>
@@ -113,7 +113,7 @@ export default function AboutPage() {
         <div className="container mx-auto px-4">
           <div className="text-center mb-16">
             <h2 className="text-3xl font-bold text-gray-800 mb-4">Our Team</h2>
-            <p className="text-xl text-gray-600 max-w-3xl mx-auto leading-relaxed">
+            <p className="text-xl text-black max-w-3xl mx-auto leading-relaxed">
               Meet the dedicated individuals working to transform agriculture in Kenya
             </p>
           </div>
@@ -129,7 +129,7 @@ export default function AboutPage() {
                 />
               </div>
               <h3 className="text-xl font-semibold mb-2 text-gray-800">Daniel Pariken Sakuda</h3>
-              <p className="text-gray-600">Project Organizer & Community Leader</p>
+              <p className="text-black">Project Organizer & Community Leader</p>
             </div>
             <div className="text-center">
               <div className="relative w-32 h-32 mx-auto mb-4 bg-green-100 rounded-full overflow-hidden">
@@ -141,7 +141,7 @@ export default function AboutPage() {
                 />
               </div>
               <h3 className="text-xl font-semibold mb-2 text-gray-800">Josphat Tajeu</h3>
-              <p className="text-gray-600">Master Farmer & Water Management Expert</p>
+              <p className="text-black">Master Farmer & Water Management Expert</p>
             </div>
             <div className="text-center">
               <div className="relative w-32 h-32 mx-auto mb-4 bg-green-100 rounded-full overflow-hidden">
@@ -153,7 +153,7 @@ export default function AboutPage() {
                 />
               </div>
               <h3 className="text-xl font-semibold mb-2 text-gray-800">Jecinta Wangui</h3>
-              <p className="text-gray-600">Community Elder & Knowledge Keeper</p>
+              <p className="text-black">Community Elder & Knowledge Keeper</p>
             </div>
             <div className="text-center">
               <div className="relative w-32 h-32 mx-auto mb-4 bg-green-100 rounded-full overflow-hidden">
@@ -165,7 +165,7 @@ export default function AboutPage() {
                 />
               </div>
               <h3 className="text-xl font-semibold mb-2 text-gray-800">Ann Nagirro</h3>
-              <p className="text-gray-600">Sustainable Farming Specialist</p>
+              <p className="text-black">Sustainable Farming Specialist</p>
             </div>
           </div>
 
@@ -180,7 +180,7 @@ export default function AboutPage() {
                 />
               </div>
               <h3 className="text-xl font-semibold mb-2 text-gray-800">Paul Sironka</h3>
-              <p className="text-gray-600">Innovation & Technology Lead</p>
+              <p className="text-black">Innovation & Technology Lead</p>
             </div>
             <div className="text-center">
               <div className="relative w-32 h-32 mx-auto mb-4 bg-green-100 rounded-full overflow-hidden">
@@ -192,7 +192,7 @@ export default function AboutPage() {
                 />
               </div>
               <h3 className="text-xl font-semibold mb-2 text-gray-800">Simon Loomu</h3>
-              <p className="text-gray-600">Equipment & Infrastructure Manager</p>
+              <p className="text-black">Equipment & Infrastructure Manager</p>
             </div>
             <div className="text-center">
               <div className="relative w-32 h-32 mx-auto mb-4 bg-green-100 rounded-full overflow-hidden">
@@ -204,7 +204,7 @@ export default function AboutPage() {
                 />
               </div>
               <h3 className="text-xl font-semibold mb-2 text-gray-800">Martin Tobiko</h3>
-              <p className="text-gray-600">Community Development Coordinator</p>
+              <p className="text-black">Community Development Coordinator</p>
             </div>
             <div className="text-center">
               <div className="relative w-32 h-32 mx-auto mb-4 bg-green-100 rounded-full overflow-hidden">
@@ -216,7 +216,7 @@ export default function AboutPage() {
                 />
               </div>
               <h3 className="text-xl font-semibold mb-2 text-gray-800">Isabella Waithera</h3>
-              <p className="text-gray-600">Youth & Education Coordinator</p>
+              <p className="text-black">Youth & Education Coordinator</p>
             </div>
           </div>
 
@@ -231,7 +231,7 @@ export default function AboutPage() {
                   </div>
                   <div>
                     <h4 className="font-semibold text-gray-800">50+ Families</h4>
-                    <p className="text-gray-600">Directly benefiting from sustainable farming</p>
+                    <p className="text-black">Directly benefiting from sustainable farming</p>
                   </div>
                 </div>
                 <div className="flex items-start space-x-4">
@@ -240,7 +240,7 @@ export default function AboutPage() {
                   </div>
                   <div>
                     <h4 className="font-semibold text-gray-800">300% Income Increase</h4>
-                    <p className="text-gray-600">Average income growth for participating families</p>
+                    <p className="text-black">Average income growth for participating families</p>
                   </div>
                 </div>
                 <div className="flex items-start space-x-4">
@@ -249,7 +249,7 @@ export default function AboutPage() {
                   </div>
                   <div>
                     <h4 className="font-semibold text-gray-800">Education Access</h4>
-                    <p className="text-gray-600">Children can now attend better schools</p>
+                    <p className="text-black">Children can now attend better schools</p>
                   </div>
                 </div>
               </div>
@@ -301,7 +301,7 @@ export default function AboutPage() {
       <section className="py-20 bg-gray-50">
         <div className="container mx-auto px-4 text-center">
           <h2 className="text-3xl font-bold text-gray-800 mb-6">Join Our Mission</h2>
-          <p className="text-xl text-gray-600 mb-8 max-w-2xl mx-auto leading-relaxed">
+          <p className="text-xl text-black mb-8 max-w-2xl mx-auto leading-relaxed">
             Support our water project and help us create lasting positive change in the Osinka Kalaso community.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">

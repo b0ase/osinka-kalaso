@@ -684,7 +684,7 @@ export default function GalleryPage() {
         <div className="container mx-auto px-4">
           <div className="text-center mb-16">
             <h2 className="text-3xl font-bold text-gray-800 mb-4">Stories from the Field</h2>
-            <p className="text-xl text-gray-600 max-w-3xl mx-auto">
+            <p className="text-xl text-black max-w-3xl mx-auto">
               Real stories from our authentic Osinka Kallaso farmers - the heart and soul of sustainable agriculture
             </p>
           </div>
@@ -702,13 +702,13 @@ export default function GalleryPage() {
                 </div>
                 <div>
                   <h3 className="text-xl font-semibold text-gray-800">Josphat Tajeu&apos;s Journey</h3>
-                  <p className="text-gray-600">Master Farmer, Osinka Kallaso Community</p>
+                  <p className="text-black">Master Farmer, Osinka Kallaso Community</p>
                 </div>
               </div>
-              <p className="text-gray-600 mb-4">
+              <p className="text-black mb-4">
                 &ldquo;For three decades, I&apos;ve watched this land transform. Before the water project, we were at the mercy of unpredictable rains. Now, with sustainable irrigation, I can plan with confidence and teach others the art of precision farming.&rdquo;
               </p>
-              <p className="text-gray-600">
+              <p className="text-black">
                 &ldquo;My greatest joy is seeing young farmers succeed and knowing our community will thrive for generations to come.&rdquo;
               </p>
             </div>
@@ -725,13 +725,13 @@ export default function GalleryPage() {
                 </div>
                 <div>
                   <h3 className="text-xl font-semibold text-gray-800">Paul Sironka&apos;s Mission</h3>
-                  <p className="text-gray-600">Community Leader & Innovation Specialist</p>
+                  <p className="text-black">Community Leader & Innovation Specialist</p>
                 </div>
               </div>
-              <p className="text-gray-600 mb-4">
+              <p className="text-black mb-4">
                 &ldquo;Water is life, and managing it wisely is our sacred responsibility. The borehole project didn&apos;t just bring water - it brought hope, health, and economic opportunity to every family in our community.&rdquo;
               </p>
-              <p className="text-gray-600">
+              <p className="text-black">
                 &ldquo;We&apos;re not just farming onions; we&apos;re building a sustainable future where every drop of water creates ripples of positive change.&rdquo;
               </p>
             </div>
@@ -744,7 +744,7 @@ export default function GalleryPage() {
         <div className="container mx-auto px-4">
           <div className="text-center mb-16">
             <h2 className="text-3xl font-bold text-gray-800 mb-4">The Art of Sustainable Farming</h2>
-            <p className="text-xl text-gray-600 max-w-3xl mx-auto">
+            <p className="text-xl text-black max-w-3xl mx-auto">
               From seed to harvest: the complete journey of sustainable onion farming at Osinka Kallaso
             </p>
           </div>
@@ -760,7 +760,7 @@ export default function GalleryPage() {
                 />
               </div>
               <h3 className="text-sm md:text-lg font-semibold mb-2">1. Seed Selection</h3>
-              <p className="text-gray-600 text-xs md:text-sm">
+              <p className="text-black text-xs md:text-sm">
                 Choosing premium, disease-resistant varieties that thrive in our unique climate and soil conditions
               </p>
             </div>
@@ -774,7 +774,7 @@ export default function GalleryPage() {
                 />
               </div>
               <h3 className="text-sm md:text-lg font-semibold mb-2">2. Land Preparation</h3>
-              <p className="text-gray-600 text-xs md:text-sm">
+              <p className="text-black text-xs md:text-sm">
                 Soil testing, organic enrichment, and precision tilling for optimal growing conditions
               </p>
             </div>
@@ -788,7 +788,7 @@ export default function GalleryPage() {
                 />
               </div>
               <h3 className="text-sm md:text-lg font-semibold mb-2">3. Smart Irrigation</h3>
-              <p className="text-gray-600 text-xs md:text-sm">
+              <p className="text-black text-xs md:text-sm">
                 Sustainable water management through our advanced borehole and irrigation systems
               </p>
             </div>
@@ -802,7 +802,7 @@ export default function GalleryPage() {
                 />
               </div>
               <h3 className="text-sm md:text-lg font-semibold mb-2">4. Quality Harvest</h3>
-              <p className="text-gray-600 text-xs md:text-sm">
+              <p className="text-black text-xs md:text-sm">
                 Careful harvesting and rigorous quality control for market-ready premium onions
               </p>
             </div>
@@ -815,7 +815,7 @@ export default function GalleryPage() {
         <div className="container mx-auto px-4">
           <div className="text-center mb-16">
             <h2 className="text-3xl font-bold text-gray-800 mb-4">Community Transformation</h2>
-            <p className="text-xl text-gray-600 max-w-3xl mx-auto">
+            <p className="text-xl text-black max-w-3xl mx-auto">
               Visual representation of how sustainable farming transforms lives at Osinka Kallaso
             </p>
           </div>
@@ -831,7 +831,7 @@ export default function GalleryPage() {
                 />
               </div>
                               <h3 className="text-lg md:text-xl font-semibold mb-2 text-gray-800">Health & Wellness</h3>
-              <p className="text-gray-600 text-sm md:text-base">
+              <p className="text-black text-sm md:text-base">
                 Clean water access has reduced waterborne diseases by 60% and improved overall community health
               </p>
             </div>
@@ -845,7 +845,7 @@ export default function GalleryPage() {
                 />
               </div>
                               <h3 className="text-lg md:text-xl font-semibold mb-2 text-gray-800">Education Access</h3>
-              <p className="text-gray-600 text-sm md:text-base">
+              <p className="text-black text-sm md:text-base">
                 85% of children from participating families now attend school regularly with improved resources
               </p>
             </div>
@@ -859,7 +859,7 @@ export default function GalleryPage() {
                 />
               </div>
                               <h3 className="text-lg md:text-xl font-semibold mb-2 text-gray-800">Economic Prosperity</h3>
-              <p className="text-gray-600 text-sm md:text-base">
+              <p className="text-black text-sm md:text-base">
                 Average household income has increased by 250% since project inception, creating lasting wealth
               </p>
             </div>
