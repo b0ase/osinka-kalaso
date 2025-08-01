@@ -26,8 +26,8 @@ export default function WaterProjectPage() {
         {/* Background Image */}
         <div className="absolute inset-0 z-0">
           <Image
-            src="/images/borehole-1.jpg"
-            alt="Borehole drilling operation"
+            src="/images/Osinka Kallaso/2bf70573-4230-4c77-8282-a37f89f29e96.JPG"
+            alt="Water project background"
             fill
             className="object-cover"
           />
@@ -67,8 +67,8 @@ export default function WaterProjectPage() {
             </div>
             <div className="relative h-96 bg-gray-200 rounded-lg overflow-hidden">
               <Image
-                src="/images/borehole-2.jpg"
-                alt="Borehole drilling operation"
+                src="/images/Osinka Kallaso/3ad53087-816a-4dd5-b6a5-cb02f03ec71f.JPG"
+                alt="Water project overview"
                 fill
                 className="object-cover"
               />
@@ -90,8 +90,8 @@ export default function WaterProjectPage() {
           <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
             <div className="relative h-64 bg-gray-200 rounded-lg overflow-hidden">
               <Image
-                src="/images/borehole-1.jpg"
-                alt="Initial drilling setup"
+                src="/images/Osinka Kallaso/3c894237-9648-4c33-bfe3-bbba3a922418.JPG"
+                alt="Water project initial setup"
                 fill
                 className="object-cover"
               />
@@ -102,8 +102,8 @@ export default function WaterProjectPage() {
             </div>
             <div className="relative h-64 bg-gray-200 rounded-lg overflow-hidden">
               <Image
-                src="/images/borehole-2.jpg"
-                alt="Drilling in progress"
+                src="/images/Osinka Kallaso/9c68d72e-39a7-4832-b781-2b2348050175.JPG"
+                alt="Water project drilling phase"
                 fill
                 className="object-cover"
               />
@@ -114,8 +114,8 @@ export default function WaterProjectPage() {
             </div>
             <div className="relative h-64 bg-gray-200 rounded-lg overflow-hidden">
               <Image
-                src="/images/borehole-3.jpg"
-                alt="Infrastructure installation"
+                src="/images/Osinka Kallaso/66d0faea-0153-423d-9f1e-e59cd6b6c4fb.JPG"
+                alt="Water project infrastructure"
                 fill
                 className="object-cover"
               />
@@ -126,8 +126,8 @@ export default function WaterProjectPage() {
             </div>
             <div className="relative h-64 bg-gray-200 rounded-lg overflow-hidden">
               <Image
-                src="/images/borehole-4.jpg"
-                alt="Completed borehole"
+                src="/images/Osinka Kallaso/79b03dc4-fda1-4b5c-baba-af9ab69ad965.JPG"
+                alt="Water project completion"
                 fill
                 className="object-cover"
               />
