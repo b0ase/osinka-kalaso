@@ -299,7 +299,7 @@ export default function WaterProjectPage() {
                   2
                 </div>
                 <div className="flex-1">
-                  <h3 className="text-xl font-semibold mb-2">Borehole Drilling</h3>
+                  <h3 className="text-xl font-semibold mb-2 text-gray-800">Borehole Drilling</h3>
                   <p className="text-gray-600 mb-2">Duration: 3-4 weeks</p>
                   <p className="text-gray-600">
                     Professional drilling to target depth, installation of casing and screen, 
@@ -312,7 +312,7 @@ export default function WaterProjectPage() {
                   3
                 </div>
                 <div className="flex-1">
-                  <h3 className="text-xl font-semibold mb-2">Infrastructure Installation</h3>
+                  <h3 className="text-xl font-semibold mb-2 text-gray-800">Infrastructure Installation</h3>
                   <p className="text-gray-600 mb-2">Duration: 4-5 weeks</p>
                   <p className="text-gray-600">
                     Installation of pump, storage tanks, distribution network, and irrigation systems.
@@ -324,7 +324,7 @@ export default function WaterProjectPage() {
                   4
                 </div>
                 <div className="flex-1">
-                  <h3 className="text-xl font-semibold mb-2">Testing & Commissioning</h3>
+                  <h3 className="text-xl font-semibold mb-2 text-gray-800">Testing & Commissioning</h3>
                   <p className="text-gray-600 mb-2">Duration: 1-2 weeks</p>
                   <p className="text-gray-600">
                     System testing, water quality verification, and training for local operators.
@@ -336,7 +336,7 @@ export default function WaterProjectPage() {
                   5
                 </div>
                 <div className="flex-1">
-                  <h3 className="text-xl font-semibold mb-2">Community Launch</h3>
+                  <h3 className="text-xl font-semibold mb-2 text-gray-800">Community Launch</h3>
                   <p className="text-gray-600 mb-2">Duration: Ongoing</p>
                   <p className="text-gray-600">
                     Full system operation, community education, and ongoing monitoring and maintenance.
@@ -361,7 +361,7 @@ export default function WaterProjectPage() {
           <div className="max-w-6xl mx-auto">
             <div className="grid lg:grid-cols-2 gap-12">
               <div>
-                <h3 className="text-2xl font-semibold mb-6">Farming Specifications</h3>
+                <h3 className="text-2xl font-semibold mb-6 text-gray-800">Farming Specifications</h3>
                 <div className="space-y-4">
                   <div className="p-4 bg-white rounded-lg shadow-sm">
                     <h4 className="font-semibold text-green-800 mb-2">Land Area</h4>
@@ -387,7 +387,7 @@ export default function WaterProjectPage() {
               </div>
 
               <div>
-                <h3 className="text-2xl font-semibold mb-6">Production & Revenue Projections</h3>
+                <h3 className="text-2xl font-semibold mb-6 text-gray-800">Production & Revenue Projections</h3>
                 <div className="space-y-4">
                   <div className="p-4 bg-white rounded-lg shadow-sm">
                     <h4 className="font-semibold text-green-800 mb-2">Yield Per Acre</h4>

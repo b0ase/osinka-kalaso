@@ -166,7 +166,7 @@ export default function Home() {
           <div className="grid lg:grid-cols-3 gap-8 mb-16">
             <div className="bg-white p-8 rounded-lg shadow-lg">
               <div className="text-4xl mb-4">💧</div>
-              <h3 className="text-xl font-semibold mb-4">Borehole Drilling</h3>
+              <h3 className="text-xl font-semibold mb-4 text-gray-800">Borehole Drilling</h3>
               <p className="text-gray-600">
                 Installing a deep borehole to access reliable groundwater, ensuring year-round 
                 water availability for irrigation and domestic use.
@@ -174,7 +174,7 @@ export default function Home() {
             </div>
             <div className="bg-white p-8 rounded-lg shadow-lg">
               <div className="text-4xl mb-4">🚰</div>
-              <h3 className="text-xl font-semibold mb-4">Water Storage</h3>
+              <h3 className="text-xl font-semibold mb-4 text-gray-800">Water Storage</h3>
               <p className="text-gray-600">
                 Building water storage tanks and distribution systems to efficiently manage 
                 water resources across the farm and community.
@@ -182,7 +182,7 @@ export default function Home() {
             </div>
             <div className="bg-white p-8 rounded-lg shadow-lg">
               <div className="text-4xl mb-4">🌿</div>
-              <h3 className="text-xl font-semibold mb-4">Irrigation System</h3>
+              <h3 className="text-xl font-semibold mb-4 text-gray-800">Irrigation System</h3>
               <p className="text-gray-600">
                 Implementing modern irrigation techniques to maximize water efficiency 
                 and onion crop yields.
