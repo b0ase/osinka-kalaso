@@ -598,9 +598,9 @@ export default function GalleryPage() {
   return (
     <main className="min-h-screen">
       {/* Hero Section */}
-      <section className="relative py-20 bg-gradient-to-r from-green-600 to-green-800">
+      <section className="relative h-96 md:h-[500px] bg-gradient-to-r from-green-600 to-green-800 overflow-hidden">
         <div className="absolute inset-0 bg-black/40 z-10"></div>
-        <div className="relative z-20 container mx-auto px-4 text-center text-white">
+        <div className="relative z-20 container mx-auto px-4 text-center text-white h-full flex flex-col justify-center">
           <div className="flex justify-center mb-6">
             <div className="relative w-20 h-20 md:w-24 md:h-24">
               <Image
@@ -623,6 +623,7 @@ export default function GalleryPage() {
             alt="Osinka Kallaso farming community"
             fill
             className="object-cover"
+            priority
           />
         </div>
       </section>
