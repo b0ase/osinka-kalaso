@@ -1,5 +1,5 @@
-import Link from 'next/link'
-import Image from 'next/image'
+import Link from 'apos;next/link'apos;
+import Image from 'apos;next/image'apos;
 
 export default function EconomicsPage() {
   return (
@@ -394,7 +394,7 @@ export default function EconomicsPage() {
                   className="object-cover"
                 />
               </div>
-              <h3 className="text-lg font-semibold text-center mb-2">John's Success</h3>
+              <h3 className="text-lg font-semibold text-center mb-2">John'apos;s Success</h3>
               <p className="text-gray-600 text-sm text-center">
                 &ldquo;My income increased from KES 15,000 to KES 45,000 per month. 
                 I can now afford better education for my children.&rdquo;
@@ -409,10 +409,10 @@ export default function EconomicsPage() {
                   className="object-cover"
                 />
               </div>
-              <h3 className="text-lg font-semibold text-center mb-2">Sarah's Journey</h3>
+              <h3 className="text-lg font-semibold text-center mb-2">Sarah'apos;s Journey</h3>
               <p className="text-gray-600 text-sm text-center">
                 &ldquo;The sustainable farming techniques have transformed my farm. 
-                I'm now a mentor to other farmers in the community.&rdquo;
+                I'apos;m now a mentor to other farmers in the community.&rdquo;
               </p>
             </div>
             <div className="bg-white p-6 rounded-lg shadow-lg">
@@ -424,7 +424,7 @@ export default function EconomicsPage() {
                   className="object-cover"
                 />
               </div>
-              <h3 className="text-lg font-semibold text-center mb-2">David's Growth</h3>
+              <h3 className="text-lg font-semibold text-center mb-2">David'apos;s Growth</h3>
               <p className="text-gray-600 text-sm text-center">
                 &ldquo;From struggling to make ends meet to becoming a successful 
                 onion farmer with a stable income.&rdquo;
