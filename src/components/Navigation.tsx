@@ -16,7 +16,6 @@ interface WindowWithSolana extends Window {
 
 export default function Navigation() {
   const [isMenuOpen, setIsMenuOpen] = useState(false)
-  const [wallet, setWallet] = useState<SolanaWallet | null>(null)
   const [walletAddress, setWalletAddress] = useState<string>('')
   const [isConnecting, setIsConnecting] = useState(false)
 
@@ -27,9 +26,8 @@ export default function Navigation() {
       if (solana && solana.isPhantom) {
         const response = await solana.connect({ onlyIfTrusted: true })
         setWalletAddress(response.publicKey.toString())
-        setWallet(solana)
       }
-    } catch (error) {
+    } catch {
       console.log('Wallet not connected')
     }
   }
@@ -42,7 +40,6 @@ export default function Navigation() {
       if (solana) {
         const response = await solana.connect()
         setWalletAddress(response.publicKey.toString())
-        setWallet(solana)
       } else {
         alert('Phantom wallet not found! Please install it from https://phantom.app/')
       }
@@ -56,7 +53,6 @@ export default function Navigation() {
 
   // Disconnect wallet
   const disconnectWallet = () => {
-    setWallet(null)
     setWalletAddress('')
   }
 

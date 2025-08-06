@@ -15,7 +15,6 @@ interface WindowWithSolana extends Window {
 }
 
 export default function OnionsTokenPage() {
-  const [walletAddress, setWalletAddress] = useState<string>('')
   const [isConnecting, setIsConnecting] = useState(false)
 
   // Token data - launching soon
@@ -31,10 +30,9 @@ export default function OnionsTokenPage() {
     try {
       const { solana } = window as WindowWithSolana
       if (solana && solana.isPhantom) {
-        const response = await solana.connect({ onlyIfTrusted: true })
-        setWalletAddress(response.publicKey.toString())
+        await solana.connect({ onlyIfTrusted: true })
       }
-    } catch (error) {
+    } catch {
       console.log('Wallet not connected')
     }
   }
@@ -45,8 +43,7 @@ export default function OnionsTokenPage() {
       setIsConnecting(true)
       const { solana } = window as WindowWithSolana
       if (solana) {
-        const response = await solana.connect()
-        setWalletAddress(response.publicKey.toString())
+        await solana.connect()
       } else {
         alert('Phantom wallet not found! Please install it from https://phantom.app/')
       }
@@ -56,11 +53,6 @@ export default function OnionsTokenPage() {
     } finally {
       setIsConnecting(false)
     }
-  }
-
-  // Format wallet address for display
-  const formatWalletAddress = (address: string) => {
-    return `${address.slice(0, 4)}...${address.slice(-4)}`
   }
 
   useEffect(() => {
