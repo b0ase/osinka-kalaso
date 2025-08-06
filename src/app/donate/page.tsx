@@ -167,6 +167,45 @@ export default function DonatePage() {
               </div>
             </div>
 
+            {/* Direct Bank Transfer Option */}
+            <div className="mb-12 bg-gradient-to-r from-green-50 to-green-100 p-8 rounded-lg border-2 border-green-200">
+              <div className="text-center">
+                <div className="text-4xl mb-4">🏦</div>
+                <h2 className="text-3xl font-bold text-gray-800 mb-4">Direct Bank Transfer</h2>
+                <p className="text-xl text-gray-600 mb-6 max-w-2xl mx-auto">
+                  Send money directly to the project organizer for immediate support
+                </p>
+                <div className="bg-white p-6 rounded-lg shadow-lg mb-6">
+                  <div className="text-left space-y-3">
+                    <div className="flex justify-between items-center">
+                      <span className="font-semibold text-gray-700">Account Number:</span>
+                      <span className="font-mono text-lg font-bold text-green-600">1299623883</span>
+                    </div>
+                    <div className="flex justify-between items-center">
+                      <span className="font-semibold text-gray-700">Account Name:</span>
+                      <span className="font-semibold text-gray-800">Daniel Pariken Sakuda</span>
+                    </div>
+                    <div className="flex justify-between items-center">
+                      <span className="font-semibold text-gray-700">Bank Branch:</span>
+                      <span className="text-gray-800">Ngong Hills</span>
+                    </div>
+                    <div className="flex justify-between items-center">
+                      <span className="font-semibold text-gray-700">Swift Code:</span>
+                      <span className="font-mono text-gray-800">KCBLKENX</span>
+                    </div>
+                  </div>
+                  <div className="mt-6 p-4 bg-yellow-50 rounded-lg border border-yellow-200">
+                                    <p className="text-sm text-yellow-800">
+                  <strong>Note:</strong> Please include &ldquo;Osinka Kalaso Project&rdquo; in your transfer reference for proper tracking.
+                </p>
+                  </div>
+                </div>
+                <p className="text-sm text-gray-500">
+                  Direct bank transfer for immediate project funding
+                </p>
+              </div>
+            </div>
+
             <div className="grid lg:grid-cols-2 gap-12">
               <div>
                 <h2 className="text-3xl font-bold text-gray-800 mb-6">Direct Donation Form</h2>

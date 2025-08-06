@@ -1,11 +1,73 @@
 'use client'
 
-import { useState } from 'react'
+import { useState, useEffect } from 'react'
 import Link from 'next/link'
 import Image from 'next/image'
 
+// Define Solana wallet interface
+interface SolanaWallet {
+  isPhantom?: boolean
+  connect: (options?: { onlyIfTrusted?: boolean }) => Promise<{ publicKey: { toString: () => string } }>
+}
+
+interface WindowWithSolana extends Window {
+  solana?: SolanaWallet
+}
+
 export default function Navigation() {
   const [isMenuOpen, setIsMenuOpen] = useState(false)
+  const [wallet, setWallet] = useState<SolanaWallet | null>(null)
+  const [walletAddress, setWalletAddress] = useState<string>('')
+  const [isConnecting, setIsConnecting] = useState(false)
+
+  // Check if Phantom wallet is available
+  const checkIfWalletIsConnected = async () => {
+    try {
+      const { solana } = window as WindowWithSolana
+      if (solana && solana.isPhantom) {
+        const response = await solana.connect({ onlyIfTrusted: true })
+        setWalletAddress(response.publicKey.toString())
+        setWallet(solana)
+      }
+    } catch (error) {
+      console.log('Wallet not connected')
+    }
+  }
+
+  // Connect to Phantom wallet
+  const connectWallet = async () => {
+    try {
+      setIsConnecting(true)
+      const { solana } = window as WindowWithSolana
+      if (solana) {
+        const response = await solana.connect()
+        setWalletAddress(response.publicKey.toString())
+        setWallet(solana)
+      } else {
+        alert('Phantom wallet not found! Please install it from https://phantom.app/')
+      }
+    } catch (error) {
+      console.error('Error connecting wallet:', error)
+      alert('Failed to connect wallet')
+    } finally {
+      setIsConnecting(false)
+    }
+  }
+
+  // Disconnect wallet
+  const disconnectWallet = () => {
+    setWallet(null)
+    setWalletAddress('')
+  }
+
+  // Format wallet address for display
+  const formatWalletAddress = (address: string) => {
+    return `${address.slice(0, 4)}...${address.slice(-4)}`
+  }
+
+  useEffect(() => {
+    checkIfWalletIsConnected()
+  }, [])
 
   return (
     <nav className="fixed top-0 left-0 right-0 z-50 bg-white/95 backdrop-blur-sm shadow-sm">
@@ -27,7 +89,7 @@ export default function Navigation() {
           </Link>
 
           {/* Desktop Navigation */}
-          <div className="hidden md:flex items-center space-x-8">
+          <div className="hidden md:flex items-center space-x-6">
             <Link href="/" className="text-gray-700 hover:text-green-600 transition-colors">
               Home
             </Link>
@@ -43,9 +105,36 @@ export default function Navigation() {
             <Link href="/gallery" className="text-gray-700 hover:text-green-600 transition-colors">
               Gallery
             </Link>
+            <Link href="/onions" className="text-gray-700 hover:text-green-600 transition-colors">
+              $ONIONS
+            </Link>
             <Link href="/contact" className="text-gray-700 hover:text-green-600 transition-colors">
               Contact
             </Link>
+            
+            {/* Wallet Connection */}
+            {walletAddress ? (
+              <div className="flex items-center space-x-2">
+                <div className="bg-green-100 text-green-800 px-3 py-2 rounded-lg text-sm font-medium">
+                  {formatWalletAddress(walletAddress)}
+                </div>
+                <button
+                  onClick={disconnectWallet}
+                  className="text-gray-600 hover:text-red-600 transition-colors text-sm"
+                >
+                  Disconnect
+                </button>
+              </div>
+            ) : (
+              <button
+                onClick={connectWallet}
+                disabled={isConnecting}
+                className="bg-green-600 text-white px-4 py-2 rounded-lg hover:bg-green-700 transition-colors disabled:opacity-50 disabled:cursor-not-allowed text-sm"
+              >
+                {isConnecting ? 'Connecting...' : 'Connect Wallet'}
+              </button>
+            )}
+            
             <Link 
               href="/donate" 
               className="bg-green-600 text-white px-6 py-2 rounded-lg hover:bg-green-700 transition-colors"
@@ -110,12 +199,49 @@ export default function Navigation() {
                 Gallery
               </Link>
               <Link 
+                href="/onions" 
+                className="text-gray-700 hover:text-green-600 transition-colors"
+                onClick={() => setIsMenuOpen(false)}
+              >
+                $ONIONS
+              </Link>
+              <Link 
                 href="/contact" 
                 className="text-gray-700 hover:text-green-600 transition-colors"
                 onClick={() => setIsMenuOpen(false)}
               >
                 Contact
               </Link>
+              
+              {/* Mobile Wallet Connection */}
+              {walletAddress ? (
+                <div className="space-y-2">
+                  <div className="bg-green-100 text-green-800 px-3 py-2 rounded-lg text-sm font-medium text-center">
+                    {formatWalletAddress(walletAddress)}
+                  </div>
+                  <button
+                    onClick={() => {
+                      disconnectWallet()
+                      setIsMenuOpen(false)
+                    }}
+                    className="w-full text-gray-600 hover:text-red-600 transition-colors text-sm text-center"
+                  >
+                    Disconnect Wallet
+                  </button>
+                </div>
+              ) : (
+                <button
+                  onClick={() => {
+                    connectWallet()
+                    setIsMenuOpen(false)
+                  }}
+                  disabled={isConnecting}
+                  className="w-full bg-green-600 text-white px-4 py-2 rounded-lg hover:bg-green-700 transition-colors disabled:opacity-50 disabled:cursor-not-allowed text-sm"
+                >
+                  {isConnecting ? 'Connecting...' : 'Connect Wallet'}
+                </button>
+              )}
+              
               <Link 
                 href="/donate" 
                 className="bg-green-600 text-white px-6 py-2 rounded-lg hover:bg-green-700 transition-colors text-center"
