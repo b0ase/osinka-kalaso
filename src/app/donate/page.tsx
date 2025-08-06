@@ -134,13 +134,42 @@ export default function DonatePage() {
         </div>
       </section>
 
-      {/* Donation Form */}
+      {/* Donation Options */}
       <section className="py-20 bg-white">
         <div className="container mx-auto px-4">
           <div className="max-w-4xl mx-auto">
+            {/* JustGiving Option */}
+            <div className="mb-12 bg-gradient-to-r from-blue-50 to-blue-100 p-8 rounded-lg border-2 border-blue-200">
+              <div className="text-center">
+                <div className="text-4xl mb-4">🎯</div>
+                <h2 className="text-3xl font-bold text-gray-800 mb-4">Donate via JustGiving</h2>
+                <p className="text-xl text-gray-600 mb-6 max-w-2xl mx-auto">
+                  Support our onion farm project at Osinka Kalaso through our secure JustGiving crowdfunding page
+                </p>
+                <div className="bg-white p-6 rounded-lg shadow-lg mb-6">
+                  <div className="flex items-center justify-center mb-4">
+                    <div className="text-2xl font-bold text-green-600 mr-2">£5,000</div>
+                    <div className="text-gray-600">goal</div>
+                  </div>
+                  <p className="text-gray-600 mb-4">Creating an Onion Farm at Osinka Kalaso</p>
+                  <a 
+                    href="https://www.justgiving.com/crowdfunding/onion-farm-osinka-kalaso"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="inline-block bg-green-600 text-white px-8 py-4 rounded-lg font-semibold text-lg hover:bg-green-700 transition-colors"
+                  >
+                    Donate on JustGiving
+                  </a>
+                </div>
+                <p className="text-sm text-gray-500">
+                  Secure, fast, and efficient way to support our community project
+                </p>
+              </div>
+            </div>
+
             <div className="grid lg:grid-cols-2 gap-12">
               <div>
-                <h2 className="text-3xl font-bold text-gray-800 mb-6">Make a Donation</h2>
+                <h2 className="text-3xl font-bold text-gray-800 mb-6">Direct Donation Form</h2>
                 <p className="text-gray-600 mb-8">
                   Choose your donation amount and help us bring sustainable water access to the 
                   Osinka Kalaso community. Every contribution makes a real difference.
