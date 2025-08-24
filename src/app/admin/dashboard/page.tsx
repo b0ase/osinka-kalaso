@@ -175,7 +175,7 @@ export default function AdminDashboard() {
             <div className="flex items-center space-x-4">
               <div className="relative w-12 h-12">
                 <Image
-                  src="/images/Osinka Kallaso/Osinka-Kalaso-Logo.JPG"
+                  src="/Osinka-Kalaso-Logo.png"
                   alt="Osinka Kalaso Logo"
                   fill
                   className="object-contain"

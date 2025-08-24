@@ -72,12 +72,12 @@ export default function Navigation() {
           {/* Logo */}
           <Link href="/" className="flex items-center space-x-3">
             <div className="relative w-12 h-12">
-              <Image
-                src="/images/Osinka Kallaso/Osinka-Kalaso-Logo.JPG"
-                alt="Osinka Kalaso Logo"
-                fill
-                className="object-contain"
-              />
+                          <Image
+              src="/Osinka-Kalaso-Logo.png"
+              alt="Osinka Kalaso Logo"
+              fill
+              className="object-contain"
+            />
             </div>
             <span className="text-xl font-bold text-green-600 hidden sm:block">
               Osinka Kalaso

@@ -67,7 +67,7 @@ export default function OnionsTokenPage() {
           <div className="flex justify-center mb-6">
             <div className="relative w-20 h-20 md:w-24 md:h-24">
               <Image
-                src="/images/Osinka Kallaso/Osinka-Kalaso-Logo.JPG"
+                src="/Osinka-Kalaso-Logo.png"
                 alt="Osinka Kalaso Logo"
                 fill
                 className="object-contain"

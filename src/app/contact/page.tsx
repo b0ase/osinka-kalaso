@@ -34,7 +34,7 @@ export default function ContactPage() {
           <div className="flex justify-center mb-4">
             <div className="relative w-16 h-16 md:w-20 md:h-20">
               <Image
-                src="/images/Osinka Kallaso/Osinka-Kalaso-Logo.JPG"
+                src="/Osinka-Kalaso-Logo.png"
                 alt="Osinka Kalaso Logo"
                 fill
                 className="object-contain"

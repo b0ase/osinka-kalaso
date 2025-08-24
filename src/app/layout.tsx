@@ -12,9 +12,9 @@ export const metadata: Metadata = {
   description: "Empowering Kenyan farmers through sustainable onion cultivation and water access. Support our borehole project to transform the local community.",
   keywords: "Kenya, onion farming, water project, borehole, sustainable agriculture, community development",
   icons: {
-    icon: '/images/Osinka Kallaso/Osinka-Kalaso-Logo.JPG',
-    shortcut: '/images/Osinka Kallaso/Osinka-Kalaso-Logo.JPG',
-    apple: '/images/Osinka Kallaso/Osinka-Kalaso-Logo.JPG',
+            icon: '/Osinka-Kalaso-Logo.png',
+        shortcut: '/Osinka-Kalaso-Logo.png',
+        apple: '/Osinka-Kalaso-Logo.png',
   },
 };
 
@@ -26,9 +26,9 @@ export default function RootLayout({
   return (
     <html lang="en">
       <head>
-        <link rel="icon" href="/images/Osinka Kallaso/Osinka-Kalaso-Logo.JPG" />
-        <link rel="shortcut icon" href="/images/Osinka Kallaso/Osinka-Kalaso-Logo.JPG" />
-        <link rel="apple-touch-icon" href="/images/Osinka Kallaso/Osinka-Kalaso-Logo.JPG" />
+        <link rel="icon" href="/Osinka-Kalaso-Logo.png" />
+        <link rel="shortcut icon" href="/Osinka-Kalaso-Logo.png" />
+        <link rel="apple-touch-icon" href="/Osinka-Kalaso-Logo.png" />
       </head>
       <body className={inter.className}>
         <Providers>
