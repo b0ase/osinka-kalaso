@@ -108,6 +108,11 @@ export default function Navigation() {
               Contact
             </Link>
             
+            {/* Admin Login */}
+            <Link href="/admin/signin" className="text-gray-700 hover:text-green-600 transition-colors">
+              Admin
+            </Link>
+            
             {/* Wallet Connection */}
             {walletAddress ? (
               <div className="flex items-center space-x-2">
@@ -207,6 +212,15 @@ export default function Navigation() {
                 onClick={() => setIsMenuOpen(false)}
               >
                 Contact
+              </Link>
+              
+              {/* Mobile Admin Login */}
+              <Link 
+                href="/admin/signin" 
+                className="text-gray-700 hover:text-green-600 transition-colors"
+                onClick={() => setIsMenuOpen(false)}
+              >
+                Admin
               </Link>
               
               {/* Mobile Wallet Connection */}

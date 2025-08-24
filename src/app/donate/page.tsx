@@ -1,6 +1,6 @@
 'use client'
 
-import { useState } from 'react'
+import { useState, useEffect } from 'react'
 import Image from 'next/image'
 
 export default function DonatePage() {
@@ -13,12 +13,80 @@ export default function DonatePage() {
     message: ''
   })
 
-  const handleDonationSubmit = (e: React.FormEvent) => {
+  const [isSubmitting, setIsSubmitting] = useState(false)
+  const [donationStats, setDonationStats] = useState({
+    total_donations: 0,
+    total_donors: 0,
+    progress_percentage: 0
+  })
+
+  const handleDonationSubmit = async (e: React.FormEvent) => {
     e.preventDefault()
+    
+    if (!donorInfo.name || !donorInfo.email) {
+      alert('Please provide your name and email address.')
+      return
+    }
+
     const amount = donationAmount === 'custom' ? customAmount : donationAmount
-    console.log('Donation submitted:', { amount, donorInfo })
-    alert('Thank you for your generous donation! We will contact you soon with confirmation details.')
+    if (!amount || parseFloat(amount) <= 0) {
+      alert('Please select a valid donation amount.')
+      return
+    }
+
+    setIsSubmitting(true)
+
+    try {
+      const response = await fetch('/api/donations', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify({
+          donor_name: donorInfo.name,
+          donor_email: donorInfo.email,
+          donor_phone: donorInfo.phone,
+          donation_amount: amount,
+          message: donorInfo.message
+        }),
+      })
+
+      const result = await response.json()
+
+      if (response.ok) {
+        alert('Thank you for your generous donation! We will contact you soon with confirmation details.')
+        // Reset form
+        setDonorInfo({ name: '', email: '', phone: '', message: '' })
+        setDonationAmount('')
+        setCustomAmount('')
+        // Refresh donation stats
+        fetchDonationStats()
+      } else {
+        alert(`Error: ${result.error || 'Failed to submit donation'}`)
+      }
+    } catch (error) {
+      console.error('Error submitting donation:', error)
+      alert('Failed to submit donation. Please try again.')
+    } finally {
+      setIsSubmitting(false)
+    }
   }
+
+  const fetchDonationStats = async () => {
+    try {
+      const response = await fetch('/api/donations')
+      const stats = await response.json()
+      if (response.ok) {
+        setDonationStats(stats)
+      }
+    } catch (error) {
+      console.error('Error fetching donation stats:', error)
+    }
+  }
+
+  useEffect(() => {
+    fetchDonationStats()
+  }, [])
 
   const handleInputChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => {
     setDonorInfo({
@@ -108,12 +176,20 @@ export default function DonatePage() {
             <div className="bg-white p-8 rounded-lg shadow-lg">
               <div className="flex justify-between items-center mb-4">
                 <span className="text-lg font-semibold">Fundraising Progress</span>
-                <span className="text-lg font-bold text-green-600">KES 0 / KES 2,865,000</span>
+                <span className="text-lg font-bold text-green-600">
+                  KES {donationStats.total_donations.toLocaleString()} / KES 2,865,000
+                </span>
               </div>
               <div className="w-full bg-gray-200 rounded-full h-4 mb-4">
-                <div className="bg-green-600 h-4 rounded-full" style={{ width: '0%' }}></div>
+                <div 
+                  className="bg-green-600 h-4 rounded-full transition-all duration-500" 
+                  style={{ width: `${Math.min(donationStats.progress_percentage, 100)}%` }}
+                ></div>
               </div>
-              <p className="text-gray-600">0% of our goal achieved - KES 2,865,000 needed for complete project</p>
+                              <p className="text-gray-600">
+                  {donationStats.progress_percentage.toFixed(1)}% of our goal achieved - 
+                  KES {(2865000 - donationStats.total_donations).toLocaleString()} still needed for complete project
+                </p>
             </div>
 
             <div className="grid md:grid-cols-3 gap-6 mt-8">
@@ -333,9 +409,10 @@ export default function DonatePage() {
 
                   <button
                     type="submit"
-                    className="w-full bg-green-600 text-white py-4 px-6 rounded-lg font-semibold text-lg hover:bg-green-700 transition-colors"
+                    disabled={isSubmitting}
+                    className="w-full bg-green-600 text-white py-4 px-6 rounded-lg font-semibold text-lg hover:bg-green-700 transition-colors disabled:bg-gray-400 disabled:cursor-not-allowed"
                   >
-                    Complete Donation
+                    {isSubmitting ? 'Submitting...' : 'Complete Donation'}
                   </button>
                 </form>
               </div>
